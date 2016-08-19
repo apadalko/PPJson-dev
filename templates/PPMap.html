@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Gabbermap BETA (2016)</title>
+    <meta property="og:title" content="Gabbermap BETA" />
+    <meta property="og:description" content="Discover your city through Gabbermap" />
+    <meta property="og:url" content="http://http://beta.gabbermap.com/" />
+    <meta property="og:image" content="https://s3.amazonaws.com/placepixel-images/(_1/gm_og.jpg" />
+
+    <script type="text/javascript" charset="utf-8">
+
+
+        if (window.navigator.userAgent.indexOf('iPhone') != -1) {
+//            window.location = "gabbermap://web"+location.search;
+
+        } else {
+//            alert("Not iPhone!");
+        }
+
+
+    </script>
+
+    <title>Gabbermap BETA</title>
+
+    <link rel="stylesheet" type="text/css" href="template/styles.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-77204811-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <script src="https://cdn.klokantech.com/maptilerlayer/v1/index.js"></script>
+    <script type="text/javascript" src="template/views/popup/Popup.js"></script>
+
+    <!--<script type="text/javascript" src="template/popup/PPFeedBackPopUp.js"></script>-->
+    <!--<script type="text/javascript" src="template/popup/PPDownloadPopUp.js"></script>-->
+
+    <script type="text/javascript" src="template/models/PPModels.js"></script>
+    <script type="text/javascript" src="template/PPTableView.js"></script>
+    <script type="text/javascript" src="template/PPHelpers.js"></script>
+
+    <script type="text/javascript" src="template/PPMap.js"></script>
+    <script type="text/javascript" src="template/views/PPViews.js"></script>
+    <script type="text/javascript" src="template/vcs/PPPostDetailsViewController.js"></script>
+    <script type="text/javascript" src="template/vcs/PPPostsListViewController.js"></script>
+    <script type="text/javascript" src="template/vcs/search/PPSearchViewController.js"></script>
+    <script type="text/javascript" src="template/vcs/search/PPSearchViews.js"></script>
+
+</head>
+<body id="bbb" style="background-color: #f2eee8 ;min-width: 863px; min-height: 620px">
+
+    <div id="postsList"></div>
+
+    <div id="map" style="min-width: 450px;">
+        <!--SHARE-->
+    </div>
+
+
+<script>
+
+    ////sharing
+    function onSharePost(pixel,post) {
+
+        var popUp =  new PPSharePopUp( document.getElementById("bbb"),"Share Gab",linkMaster.generatePostAndPixelLink());
+
+    }
+
+
+    function onShareView(pixel,filter) {
+
+      var popUp =  new PPSharePopUp( document.getElementById("bbb"),"Share Map",linkMaster.generatePixelAndFilterLink());
+//        document.getElementById("bbb").appendChild(popUp.div);
+        console.log("Sharing the view... on pixel"+pixel.pixelId+":z:"+pixel.zoomLevel + "filter:"+filter);
+    }
+
+
+    function onDownloadButton() {
+        console.log("Downloading ... ");
+        var  dp= new PPDownloadPopUp(document.getElementById("bbb"));
+    }
+
+
+    function onSendFeedBack(){
+        window.location.href = 'mailto:feedback@gabbermap.com?subject=Gabbermap BETA Feedback';
+    }
+    function onAbout(){
+        var win = window.open("http://www.gabbermap.com", '_blank');
+        win.focus();
+    }
+    function onTerms(){
+
+        var win = window.open("http://www.gabbermap.com/terms", '_blank');
+        win.focus();
+    }
+
+
+
+    ///////
+    function PPLinkMaster(){
+        var filter=null;
+        var pixel=null;
+        var postId=null;
+
+    }
+PPLinkMaster.prototype.setup=function(){
+
+    var query = location.search.substr(1);
+        var params = query.split("&");
+        params.forEach(function(param){
+            if(param.startsWith("pp")){
+                var pp = param.split("=")[1].split(":");
+                this.pixel=new PPPixel(pp[0],pp[1]);
+            }else if (param.startsWith("p")){
+                this.postId=param.split("=")[1];
+            }else if (param.startsWith("f")){
+                var f = param.split("=")[1].split(":");
+                if(f.length==2){
+                    this.filter=new PPMapFilter(f[0],f[1]);
+                }else if (f.length==3){
+                    this.filter=new PPMapFilter(f[0],f[1],f[2]);
+                }
+
+            }
+        }.bind(this));
+//    }
+
+
+
+}
+    PPLinkMaster.prototype.generatePostAndPixelLink=function(){
+
+        var pp = document.location.origin+"?pp=" + this.pixel.pixelId + ":" + this.pixel.zoomLevel;
+        pp += "&p=" + this.postId;
+
+
+        return pp;
+    }
+    PPLinkMaster.prototype.generatePixelAndFilterLink   =function(){
+        var pp = document.location.origin+"?pp=" + this.pixel.pixelId + ":" + this.pixel.zoomLevel;
+        if(this.filter){
+            if (this.filter.type < 2) {
+                pp += "&f=" + this.filter.value + ":" + this.filter.type;
+            }else if (this.filter.type==2){
+                pp += "&f=" + this.filter.value + ":" + this.filter.type+":"+this.filter.displayName;
+            }
+        }
+
+
+
+        return pp;
+    }
+PPLinkMaster.prototype.updateLink=function() {
+
+
+    if (this.pixel) {
+        var pp = "?pp=" + this.pixel.pixelId + ":" + this.pixel.zoomLevel;
+
+        if (this.filter) {
+
+            if (this.filter.type < 2) {
+                pp += "&f=" + this.filter.value + ":" + this.filter.type;
+           }else if (this.filter.type==2){
+                pp += "&f=" + this.filter.value + ":" + this.filter.type+":"+this.filter.displayName;
+            }
+
+        }
+        if (this.postId) {
+            pp += "&p=" + this.postId;
+        }
+
+        try {
+            window.history.pushState("Gabbermap", "Gabbermap",
+                    ""+pp);
+
+//            ga('send', 'pageview');
+        }catch (e){
+
+        }
+    }
+
+}
+
+
+    var  currentPostDetails;
+    var  map ;
+    var linkMaster;
+    var  downloadButton;
+
+
+    function onGoogleLoad(){
+
+        linkMaster= new PPLinkMaster();
+        linkMaster.setup();
+
+        var searchVC = new PPSearchViewController();
+
+        searchVC.addFilterListener( function(filter){
+            map.applyFilter(filter,true);
+        });
+
+        searchVC.addFilterCancelListener( function(){
+            postsList.setFilterRequestPart(null);
+            map.clearFilter();
+            linkMaster.filter=null;
+            linkMaster.updateLink();
+
+        });
+        searchVC.addLocationListener( function(locationName){
+            map.showPlace(locationName);
+        });
+
+        searchVC.addShareListener(function(){
+
+           onShareView(linkMaster.pixel,linkMaster.filter);
+
+        });
+
+
+        var initialPixel = null;
+
+        map = new PPMap("map",linkMaster.pixel,linkMaster.filter);
+        var  postsList = new PPPostsList("postsList");
+
+        map.addPixelSelectionCallback(function (pixel){
+            postsList.selection(pixel);
+            linkMaster.pixel=pixel;
+            linkMaster.updateLink();
+//            window.location.href = "file:///Users/alexpadalko/Backend/gabbermap-server/js/PPMap_JS/PPMap.html"
+        });
+        map.addWillApplyFilterListener(function(filter){
+            this.setFilterRequestPart(map.getFilterRequest());
+            searchVC.applyFilter(filter)
+            linkMaster.filter=filter;
+            linkMaster.updateLink();
+
+        }.bind(postsList));
+        var  mapDiv = document.getElementById("bbb");
+
+        mapDiv.appendChild(searchVC.div)
+
+        postsList.addSelectionListener( function (pppost){
+
+            if(downloadButton)
+            downloadButton.hidden=true;
+            var  mapDiv = document.getElementById("bbb");
+            //create new post details overlay
+
+            if(currentPostDetails!=null){
+                mapDiv.removeChild(currentPostDetails.div);
+                currentPostDetails=null;
+            }
+            var postDetailsView  = new PPPostDetailsView(pppost,mapDiv);
+            currentPostDetails=postDetailsView;
+
+            linkMaster.postId=pppost.objectId;
+            linkMaster.updateLink();
+
+            postDetailsView.addCloseListener(function(){
+
+               currentPostDetails=null;
+
+                linkMaster.postId=null;
+                linkMaster.updateLink();
+                if(downloadButton)
+                downloadButton.hidden=false;
+            });
+
+            postDetailsView.addShareListener(function(post){
+
+                onSharePost(linkMaster.pixel,post);
+
+            });
+            postDetailsView.addDownloadListener(function(){
+                 onDownloadButton();
+            })
+
+        });
+
+
+        if(linkMaster.postId){
+
+
+            if(currentPostDetails!=null){
+                mapDiv.removeChild(currentPostDetails.div);
+                currentPostDetails=null;
+            }
+            var postDetailsView  = new PPPostDetailsView(null,mapDiv,linkMaster.postId);
+            currentPostDetails=postDetailsView;
+            postDetailsView.addCloseListener(function(){
+
+                currentPostDetails=null;
+
+                linkMaster.postId=null;
+                linkMaster.updateLink();
+                downloadButton.hidden=false;
+            });
+            postDetailsView.addShareListener(function(post){
+
+                onSharePost(linkMaster.pixel,post);
+
+            });
+            postDetailsView.addDownloadListener(function(){
+                onDownloadButton();
+            })
+        }
+
+
+        var centerControlDiv = document.createElement('div');
+        var centerControl = new CenterControl(centerControlDiv, map);
+
+        centerControlDiv.index = 1;
+        map.map.controls[google.maps.ControlPosition.BOTTOM_CENTER].push(centerControlDiv);
+
+    }
+
+
+
+    function CenterControl(controlDiv, map) {
+
+        var controlUI = document.createElement('div');
+        downloadButton=controlUI;
+        controlUI.style.backgroundColor = '#fff';
+        controlUI.style.border = '2px solid #fff';
+        controlUI.style.borderRadius = '6px';
+        controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+        controlUI.style.cursor = 'pointer';
+        controlUI.style.marginBottom = '22px';
+        controlUI.style.textAlign = 'center';
+        controlUI.title = '';
+        controlDiv.appendChild(controlUI);
+
+
+        // Set CSS for the control interior.
+        var controlText = document.createElement('div');
+        controlText.style.color = 'rgb(25,25,25)';
+        controlText.style.fontFamily = 'MuseoSansRounded-700';
+        controlText.style.fontSize = '16px';
+        controlText.style.lineHeight = '38px';
+        controlText.style.paddingLeft = '12px';
+        controlText.style.paddingRight = '12px';
+        controlText.style.color="#f4a401";
+        controlText.innerHTML='<span class="mueso900Medium">'+"Download Gabbermap"+'</span> <span class="mueso700Medium">'+"to see more"+'</span>';
+        controlUI.appendChild(controlText);
+
+        // Setup the click event listeners: simply set the map to Chicago.
+        controlUI.addEventListener('click', function() {
+            onDownloadButton();
+        });
+
+
+        genereateFeedbackBar()
+    }
+
+    function genereateFeedbackBar(){
+        var div = document.getElementById("postsList");
+
+        var bottomBar = document.createElement("div");
+
+        bottomBar.style.height="20px";
+        bottomBar.style.position="absolute";
+        bottomBar.style.bottom="0.5px";
+        bottomBar.style.borderRadius="4px 4px 4px 4px";
+        bottomBar.style.boxShadow="0px 1px 5px rgba(0, 0, 0, 0.4)";
+        bottomBar.style.zIndex=1;
+        bottomBar.style.backgroundColor="#ffffff";
+        bottomBar.style.display="inline-block";
+        bottomBar.style.left="0";
+        div.appendChild(bottomBar);
+
+
+        var logoImage = document.createElement("img");
+        logoImage.style.float="left";
+        logoImage.style.width="44px";
+        logoImage.style.height="44px";
+        logoImage.src =  'template/assets/images/gm_logo@2x.png';
+        logoImage.style.marginTop="-24px";
+        logoImage.style.marginLeft="4px";
+
+        bottomBar.appendChild(logoImage);
+
+
+        {
+            var betaText = document.createElement("div");
+            betaText.className="gm-feedback-bar-text";
+            betaText.innerHTML="BETA ";
+            betaText.style.color="#f4a401";
+            betaText.style.cursor="crosshair";
+
+            bottomBar.appendChild(betaText);
+        }
+        {
+            var betaText = document.createElement("div");
+            betaText.className="gm-feedback-bar-text";
+            betaText.innerHTML="&#8226 <font color='#10d6d2'>About Gabbermap</font>";
+            bottomBar.appendChild(betaText);
+
+            betaText.onclick=onAbout;
+        }
+        {
+            var betaText = document.createElement("div");
+            betaText.className="gm-feedback-bar-text";
+            betaText.innerHTML="&#8226 Send Feedback";
+
+            bottomBar.appendChild(betaText);
+
+            betaText.onclick=onSendFeedBack;
+        }
+        {
+            var betaText = document.createElement("div");
+            betaText.className="gm-feedback-bar-text";
+            betaText.innerHTML="&#8226 Terms";
+
+            betaText.style.marginRight="5px";
+            bottomBar.appendChild(betaText);
+
+            betaText.onclick=onTerms;
+        }
+    }
+
+
+</script>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?callback=onGoogleLoad{{ data.api_key|safe }}">
+
+
+</script>
+
+
+    <!--&lt;!&ndash; Google Analytics &ndash;&gt;-->
+    <!--<script>-->
+        <!--window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;-->
+        <!--ga('create', 'UA-XXXXX-Y', 'auto');-->
+        <!--ga('send', 'pageview');-->
+    <!--</script>-->
+    <!--<script async src='https://www.google-analytics.com/analytics.js'></script>-->
+    <!--&lt;!&ndash; End Google Analytics &ndash;&gt;-->
+
+
+
+
+</body>
+</html>

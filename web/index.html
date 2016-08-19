@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        html {
+            height: 100%;
+        }
+        * { padding: 0; margin: 0; }
+        #main-body{
+            background-color: #ffffff;min-width: 820px; min-height: 620px;height: 100%;width: 100%;
+
+
+        }
+        #left-menu{
+            height: 100%;
+            width: 220px;
+            min-height: 620px;
+            background-color: #3d3d3d;
+            float: left;
+            margin: 0 auto;
+        }
+        #content-view{
+            min-width: 600px;
+            min-height: 620px;
+            height: 100%;
+
+            background-color: #ffffff;
+
+        }
+    </style>
+    <script type="text/javascript" src="static/services/PPJFilesService.js"></script>
+    <script type="text/javascript" src="static/services/RequestMaster.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/resourses/styles/style.css">
+    <script type="text/javascript" src="static/core_ui.js"></script>
+
+</head>
+<body id="main-body" onload="onLoad()">
+
+<div id="left-menu"></div>
+<div id="content-view"> </div>
+
+
+
+
+<script type="text/javascript">
+
+    var  mc  =null;
+function onLoad(){
+
+
+    mc  = new MasterDetailController(document.getElementById("left-menu"),document.getElementById("content-view"))
+    mc.divsFunction = function getDivs(){
+
+        var  result =new Array();
+        {
+            var menubutton = document.createElement("div");
+            menubutton.className="menu-button";
+            menubutton.innerHTML =  "App";
+            result.push(new MDButton(menubutton,"app.html"));
+        }
+        {
+            var menubutton = document.createElement("div");
+            menubutton.className="menu-button";
+            menubutton.innerHTML =  "Controllers";
+            result.push(new MDButton(menubutton,"controllers.html"));
+        }
+        {
+            var menubutton = document.createElement("div");
+            menubutton.className="menu-button";
+            menubutton.innerHTML =  "Config";
+            result.push(new MDButton(menubutton,"config.html"));
+        }
+
+
+
+        return result;
+
+    }.bind(this);
+    mc.startWorking();
+
+
+}
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,837 @@
+/* *********************************************************************************** */
+/* ********************************** POST LIST STYLES ******************************* */
+/* *********************************************************************************** */
+
+#postsList{
+    height: 100%;
+    width: 413px;
+    min-height: 620px;
+    background-color: #f2eee8;
+    float: left;
+}
+.loading-cell {
+    width: 380px;
+    margin: 10px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+.loading-cell img{
+    width: 90px;
+    height: 90px;
+}
+
+#post {
+    border-radius: 0px 12px 12px 12px;
+    display:block;
+    overflow:auto;
+    width: 380px;
+    margin: 10px auto;
+    background-color: #ffffff;
+}
+#post:hover {  opacity: 0.7;}
+
+#post-left, #post-right {
+    float: left;
+}
+#post-left {
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 8px;
+    width: 50px;
+    height: 50px;
+}
+#post-right {
+    padding-left: 0px;
+    padding-right: 9px;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    width: 306px;
+}
+#post-content{
+    min-height: 56px;
+    display:block;
+}
+#date-section {
+    background-color: green;
+    color: blue	;
+}
+#text-reply-section {
+    font-family: MuseoSansRounded-500;
+    font-size: 15px;
+}
+#footer-section {
+    height: 20px;
+    padding-bottom:3px;
+    display: flex;
+    position: relative;
+}
+#footer-element{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    line-height: 100%;
+}
+/* username in the footer element*/
+.username {
+    float: left;
+    font-family: MuseoSansRounded-500;
+    font-size:  12px;
+    color: #b2b2b2;
+    padding-bottom: 3px;
+}
+/* footer element */
+.replies-counter-div {
+    font-family: MuseoSansRounded-500;
+    font-size:  12px;
+    color: #b2b2b2;
+    padding-top: 3px;
+}
+#footer-left {
+    position: absolute;
+    top: 50%;
+    margin-top:-25%;
+    text-align: center;
+    line-height: 100%;
+    float: left;
+}
+#footer-right {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    top: 50%;
+    margin-top:-25%;
+}
+#footer-right-element-text{
+    float: left;
+    line-height: 100%;
+}
+#footer-right-element-image{
+    position: relative;
+    transform: translateY(50%);
+    width:16px; height:8px;
+}
+
+#footer-reply-count, #footer-reply-count-img,
+#footer-vote-control-img1, #footer-vote-control-text, #footer-vote-control-img2,#footer-reply-count-img
+{
+    float: left;
+    line-height: 100%;
+}
+#footer-vote-control-img1,#footer-vote-control-img2 ,#footer-reply-count-img {
+    position: relative;
+    transform: translateY(50%);
+    width:16px; height:8px
+}
+#footer-vote-control-img1 {
+    padding-left: 36px;
+}
+/* *********************************************************************************** */
+/* ********************************** END POST LIST STYLES *************************** */
+/* *********************************************************************************** */
+
+
+
+
+/* *********************************************************************************** */
+/* ********************************** POST DETAILS STYLES **************************** */
+/* *********************************************************************************** */
+
+#post-details-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    pointer-events: all;
+}
+.post-details-holder{
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);
+    min-width: 413px;
+    max-width:  645px;
+    min-height: 596px ;
+    background-color:#f2eee8;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.post-details-nav-bar{
+    background-color:#ffffff;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.post-details-tool-bar{
+    background-color:#ffffff;
+    height: 50px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-family: MuseoSansRounded-700;
+    font-size: 16px;
+    color: #f4a401;
+    cursor: pointer;
+}
+.content-media-holder-div {
+    width: 100%;
+    padding-top: 48%;
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #4d4d4d;
+    position: relative;
+}
+.username-karma-container-div {
+    float: left;
+    text-align: left;
+    position: relative;
+    line-height: 115%;
+    top:6px;
+    margin-left: 6px;
+}
+.timestamp {
+    /*margin-left:  -5px;*/
+    float: left;
+    font-family: MuseoSansRounded-500;
+    font-size: 12px;
+    color: #b2b2b2;
+    text-align: left;
+    position: relative;
+    line-height: 115%;
+    top: 6px;
+    left: 6px;
+}
+.post-details-post{
+    border-radius: 0px 12px 12px 12px;
+    overflow:hidden;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.post-details-post-content{
+    margin: 10px auto;
+    width: calc(100% - 20px);
+    min-height: 100px;
+}
+#post-details-media {
+    border-radius:6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
+/* -------------------- POST REPLIES SECTION -------------------*/
+.post-details-reply-holder-wrapper {
+    float: left;
+    margin: 8px auto;
+    width: 100%;
+}
+.post-details-reply-holder {
+    margin: 0px auto;
+    display: block;
+    padding-left: 10px;
+    float: left;
+}
+.post-details-reply-avatar {
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    float: left;
+}
+.post-details-reply-content {
+    border-radius: 0px 12px 12px 12px;
+    margin-right: 10px;
+    display:block;
+    overflow:auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: calc(100% - 90px);
+    min-width: 260px;
+    float: left;
+    background-color: #ffffff;
+}
+.post-details-reply-content-content{
+    min-height: 40px;
+}
+.comment-footer-element{
+    position: absolute;
+}
+.post-details-reply-footer {
+    background-color: chocolate;
+}
+#post-details-reply-footer-username {
+    background-color: blueviolet;
+}
+.play-button {
+    background-image:url(/template/assets/images/gm_play@2x.png);
+    width:50px;
+    height:58px;
+    border-style:none;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    position: absolute;
+    background-size:contain;
+    background-position: center;
+    pointer-events: none;
+}
+.gm-share-post-button {
+    height: 40px;
+    background-color: #10d6d2;
+    cursor : pointer;
+    color: #ffffff;
+    pointer-events: all;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 1px;
+    border-radius: 4px;
+    font-family: MuseoSansRounded-700;
+    font-size: 16px;
+    line-height: 40px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    letter-spacing: 1px;
+}
+/* *********************************************************************************** */
+/* ********************************** END POST DETAILS STYLES ************************ */
+/* *********************************************************************************** */
+
+
+
+
+/* *********************************************************************************** */
+/* ****************************************SEARCH STYLES ***************************** */
+/* *********************************************************************************** */
+
+.search-overlay {
+    background-color: rgba(0,0,0, 0.0);
+    min-width: 450px ;
+    min-height: 450px;
+    text-align: center;
+    height: 100%;
+    width: calc(100% - 413px);
+    position: absolute;
+    top: 0px;
+    left: 413px;
+    pointer-events: none;
+}
+.search-fake-suggestion-holder{
+    top: 6px;
+    pointer-events: all;
+    display: inline-block;
+    position: relative;
+    max-height: 50px;
+    margin: 0 auto;
+}
+.search-suggestion-holder{
+    pointer-events: all;
+    position: relative;
+    width: 350px;
+    max-height: 800px;
+    background-color: #f2eee8;
+    float: left;
+    border-radius: 4px;
+}
+.search-share-button {
+    margin-left: 5px;
+    float: right;
+    height: 50px;
+    cursor : pointer;
+    pointer-events: all;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+    font-family: MuseoSansRounded-700;
+    font-size: 16px;
+    padding-top: 1px;
+    line-height: 50px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+}
+.search-section{
+    pointer-events: all;
+    position: relative;
+    width: 350px;
+    height: 50px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    margin: 0 auto;
+}
+.search-gabberbots-title-section{
+    pointer-events: none;
+    position: relative;
+    width: 350px;
+    height: 25px;
+    margin: 0 auto;
+    font-family: MuseoSansRounded-500;
+    font-size: 14px;
+    top: 7px;
+}
+.search-bar.search-section{
+
+    width: 350px;
+    height: 50px;
+    background-color: #ffffff;
+}
+.search-bar input:focus {
+    outline: 0;
+}
+.search-bar input::-webkit-input-placeholder {
+    color: #b2b2b2;
+}
+.search-bar input:-moz-placeholder {
+    color: #b2b2b2;
+}
+.search-bar input:-ms-input-placeholder {
+    color: #b2b2b2;
+}
+.search-section .left-image{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top:  0px;
+    margin-left: 0px;
+}
+#search-section-persona-image{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    margin-top:  0px;
+    margin-left: 0px;
+    border-style: none;
+}
+.search-bar .right-image{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+.search-bar input {
+    float: left;
+    margin-left:  0px;
+    position: relative;
+    left: 5px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border: 0;
+    width: 234px;
+    background-color: rgba(0,0,0,0);
+    font-family: MuseoSansRounded-500;
+    font-size: 16px;
+}
+.suggestion-text{
+    float: left;
+    margin-left:  0px;
+    text-align:    left;
+    position: relative;
+    left: 5px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #ffffff;;
+    font-size: 16px;
+    width: 280px;
+}
+.mueso900Medium{
+    font-family: MuseoSansRounded-900;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.mueso700Medium{
+    font-family: MuseoSansRounded-700;
+    font-size: 15px;
+}
+.mueso500Medium{
+    font-family: MuseoSansRounded-500;
+    font-size: 15px;
+}
+.mueso500Small{
+    font-family: MuseoSansRounded-500;
+    font-size: 12px;
+}
+.mueso500_16{
+    font-family: MuseoSansRounded-500;
+    font-size: 16px;
+}
+.mueso500_14{
+    font-family: MuseoSansRounded-500;
+    font-size: 14px;
+}
+/* *********************************************************************************** */
+/* *********************************** END SEARCH STYLES ***************************** */
+/* *********************************************************************************** */
+
+
+
+
+/* *********************************************************************************** */
+/* **************************************** POPUP STYLES ***************************** */
+/* *********************************************************************************** */
+
+.popup-overlay {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    pointer-events: all;
+    position: absolute;
+}
+.popup-div {
+    width: 640px;
+    position: fixed;
+    background-color: #f2eee8;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    overflow: hidden;
+}
+.popup-navigation-bar {
+    background-color: #ffffff;
+    height: 50px;
+    width: 640px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+.popup-close-button {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+.popup-body-text{
+    font-family: MuseoSansRounded-700;
+    font-size: 14px;
+    color: #4d4d4d;
+    width:100%;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.popup-navigation-bar-title{
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-family: MuseoSansRounded-700;
+    font-size: 16px;
+    color: #4d4d4d;
+
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.persona-share-face{
+    height: 60px;
+    width: 60px;
+    margin:0 auto;
+    margin-top: 28px;
+    text-align :center;
+    display:block;
+    vertical-align:middle;
+}
+.popup-share-text-input-holder {
+    margin: auto;
+    margin-top: 28px;
+    height: 44px;
+    width: 380px;
+    background-color: #ffffff;
+    border-radius: 6px;
+}
+.popup-share-text-input-holder input{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    font-family: MuseoSansRounded-500;
+    font-size: 14px;
+}
+.popup-share-text-input-holder  input:focus {
+    outline: 0;
+}
+.popup-share-text-input-holder  input::-webkit-input-placeholder {
+    color: #b2b2b2;
+}
+.popup-share-text-input-holder  input:-moz-placeholder {
+    color: #b2b2b2;
+}
+.popup-share-text-input-holder  input:-ms-input-placeholder {
+    color: #b2b2b2;
+}
+.popup-share-text-input-holder input[type="text"]:focus,
+.popup-share-text-input-holder input[type="text"].focus {
+    border: none;
+}
+.feedback-popup {
+    margin: 0 auto;
+}
+.persona-feedback-face{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-image: url("views/popup/face.png");
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+.popup-share-text-description {
+    display: inline;
+    font-family: MuseoSansRounded-300;
+    font-size: 14px;
+    font-weight: 400;
+}
+.feedback-textarea textarea{
+    /*col and row span in Popup.js line 290 as component properties*/
+    outline: none;
+    border-radius: 6px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.feedback-footer {
+    margin: 25px;
+    float: right;
+}
+.feedback-footer-text {
+    margin: 0 auto;
+    font-family: MuseoSansRounded-700;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.feedback-send-button {
+    height: 50px;
+    display: table-cell;
+    background-color: #f4a401;
+    cursor : pointer;
+    color: #ffffff;
+    pointer-events: all;
+    padding-left: 12px;
+    padding-right: 12px;
+    float: right;
+    border-radius: 4px;
+    font-family: MuseoSansRounded-900;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    margin-left: 6px;
+}
+/* *********************************************************************************** */
+/* ************************************ END POPUP STYLES ***************************** */
+/* *********************************************************************************** */
+
+
+
+
+
+/* *********************************************************************************** */
+/* ********************************** DOWNLOAD POPUP STYLES ************************** */
+/* *********************************************************************************** */
+.popup-download-input-holder {
+    display:table;
+    margin: 0 auto;
+    height: 50px;
+}
+.popup-download-input-holder input{
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: MuseoSansRounded-700;
+    font-size: 16px;
+    margin-right: 5px ;
+}
+.popup-download-send-button {
+    height: 50px;
+    display: table-cell;
+    background-color: #f4a401;
+    cursor : pointer;
+    color: #ffffff;
+    pointer-events: all;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 4px;
+    font-family: MuseoSansRounded-700;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.download-from-appstore-image {
+    cursor: pointer;
+    width: 203px;
+    height: 60px;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.popup-download-input-holder input:focus {
+    outline: 0;
+}
+.popup-download-input-holder input::-webkit-input-placeholder {
+    color: #b2b2b2;
+}
+.popup-download-input-holder input:-moz-placeholder {
+    color: #b2b2b2;
+}
+.popup-download-input-holder input:-ms-input-placeholder {
+    color: #b2b2b2;
+}
+/* *********************************************************************************** */
+/* ********************************** END DOWNLOAD POPUP STYLES ********************** */
+/* *********************************************************************************** */
+
+
+
+
+
+/* *********************************************************************************** */
+/* ********************************** STYLES FROM PPMAP.html ************************* */
+/* *********************************************************************************** */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#small_counter{
+    border-bottom-right-radius:9px;
+}
+#pp_pixel{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 12px;
+}
+#container {height: 100%; width:100%; font-size: 0;}
+#map {
+
+    height: 100%;
+}
+#simplePost {
+    height: 50px;
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: inherit;
+}
+.map-overlay {
+    background-color: rgba(0,0,0, 0.0);
+    min-width: 450px ;
+    min-height: 450px;
+    text-align: center;
+    height: 100%;
+    width: calc(100% - 413px);
+    position: absolute;
+    top: 0px;
+    left: 413px;
+    pointer-events: none;
+}
+
+/* ------------------- share buttons------------- */
+
+.download-button-holder {
+    width: 350px;
+    height: 50px;
+    background-color: #10d6d2;
+    color: #ffffff;
+    pointer-events: all;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+.download-button-holder:before {
+    font-family: MuseoSansRounded-700;
+    content: "Download Gabbermap to see more";
+    visibility: visible;
+    display: block;
+    margin-top: 16px;
+    kerning: auto;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.gm-share-button {
+    width: 60px;
+    height: 50px;
+    background-color: slategray;
+    color: #ffffff;
+    pointer-events: all;
+    position: fixed;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    right: 175px;
+    top: 5px;
+    text-align: center;
+    z-index: 100;
+}
+.gm-share-button:before {
+    font-family: MuseoSansRounded-900;
+    content: "SHARE";
+    visibility: visible;
+    display: block;
+    margin-top: 16px;
+}
+.gm-share-post-button:before {
+    font-family: MuseoSansRounded-900;
+    visibility: visible;
+}
+.gm-feedback-bar-text{
+    font-family: MuseoSansRounded-700;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+    color: #b2b2b2;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+/* *********************************************************************************** */
+/* ****************************** END STYLES FROM PPMAP.html ************************* */
+/* *********************************************************************************** */
+
+
+
+/* ******************************* CUSTOM FONTS ************************************** */
+
+@font-face {
+    font-family: MuseoSansRounded-300;
+    src: url(/template/assets/fonts/MuseoSansRounded-300.otf);
+}
+
+@font-face {
+    font-family: MuseoSansRounded-500;
+    src: url(/template/assets/fonts/MuseoSansRounded-500.otf);
+}
+
+@font-face {
+    font-family: MuseoSansRounded-700;
+    src: url(/template/assets/fonts/MuseoSansRounded-700.otf);
+}
+
+@font-face {
+    font-family: MuseoSansRounded-900;
+    src: url(/template/assets/fonts/MuseoSansRounded-900.otf);
+}

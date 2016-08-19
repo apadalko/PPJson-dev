@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overlay map types</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #small_counter{
+            border-bottom-right-radius:9px;
+        }
+        #pp_pixel{
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            border-radius: 12px;
+        }
+        #container {height: 100%; width:100%; font-size: 0;}
+        #map {
+            height: 100%;
+        }
+
+
+
+
+        #simplePost {
+            height: 50px;
+            width: 60%;
+            margin-left: 10px;
+            margin-right: 10px;
+            /*margin-top: 10px;*/
+            float: inherit;
+        }
+        #postsList{
+            height: 100%;
+            width: 420px;
+            background-color: #f2eee8;
+            float: left;
+            /*overflow-y: auto;*/
+
+            /*white-space:nowrap;*/
+        }
+
+
+
+        #post {
+
+            border-radius: 0px 12px 12px 12px;
+            display:block;
+            overflow:auto;
+            width: 380px;
+            margin: 10px;
+            /*min-height: 100px;*/
+            background-color: green;
+        }
+
+        #post-left, #post-right {
+            float: left;
+
+        }
+
+        #post-left {
+            padding-left: 5px;
+            padding-right: 6px;
+            padding-top: 8px;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+
+        }
+
+        #post-right {
+
+            padding-left: 6px;
+            padding-right: 9px;
+            padding-top: 6px;
+            padding-bottom: 4px;
+            width: 304px;
+            background-color: orange;
+            background-color: orange;
+
+        }
+
+        #post-content{
+            min-height: 76px;
+            display:block;
+            background-color: pink;
+
+        }
+
+        #date-section {
+            background-color: green;
+            color: blue	;
+        }
+
+        #text-reply-section {
+            padding-top: 0px;
+            padding-bottom: 6px;
+            background-color: yellow;
+        }
+
+        #media-section {
+            padding-top: 4px;
+            padding-bottom: 4px;
+            border-radius: 8px / 12px;
+            margin-left: 0px;
+            max-width: 100%;
+
+        }
+
+        #footer-section {
+            height: 30px;
+            background-color: brown;
+            display: flex;
+            position: relative;
+
+        }
+
+        #footer-left {
+            text-align: center;
+            line-height: 100%;
+            float: left;
+            position: absolute;
+            top: 50%;
+            margin-top:-25%;
+        }
+
+        #footer-right {
+            position: absolute;
+            right: 0;
+            background-color: white;
+            /*display: inline;*/
+
+            top: 50%;
+            margin-top:-25%;
+
+
+        }
+
+        #footer-reply-count, #footer-reply-count-img,
+        #footer-vote-control-img1, #footer-vote-control-text, #footer-vote-control-img2,#footer-reply-count-img
+        {
+
+            float: left;
+            line-height: 100%;
+
+        }
+
+        #footer-vote-control-img1,#footer-vote-control-img2 ,#footer-reply-count-img {
+            position: relative;
+            transform: translateY(50%);
+            width:16px; height:8px
+        }
+
+        #footer-vote-control-img1 {
+            padding-left: 36px;
+        }
+
+        #footer-vote-control-img2 {
+
+        }
+        #footer-reply-count-img {
+
+        }
+
+
+    </style>
+    <script type="text/javascript" src="static/PPViews.js"></script>
+    <script type="text/javascript" src="static/PPModels.js"></script>
+    <script type="text/javascript" src="static/PPMap.js"></script>
+    <script type="text/javascript" src="static/PPPostsList.js"></script>
+</head>
+<body style="background-color: chartreuse">
+
+    <div id="postsList"></div>
+    <div id="map"></div>
+
+<script>
+
+    function onGoogleLoad(){
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+        }
+            if (navigator.geolocation) {
+              var  pos = navigator.geolocation;
+                console.log("location:"+pos.cords);
+            }
+
+
+
+     var  map = new PPMap("map");
+        var  postsList = new PPPostsList("postsList");
+
+        map.addPixelSelectionCallback(function (pixelId,zoomLevel){
+
+
+            postsList.selection(pixelId,zoomLevel);
+
+
+        });
+
+
+
+
+    }
+
+</script>
+
+
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy7cidn1p1pkf8TxWar6vliL9J9Apo0PM&callback=onGoogleLoad">
+</script>
+</body>
+</html>

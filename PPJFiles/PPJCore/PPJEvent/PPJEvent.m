@@ -9,5 +9,16 @@
 #import "PPJEvent.h"
 
 @implementation PPJEvent
+- (instancetype)init {
 
+    if (self=[super init]){
+
+        self.alive=YES;
+
+    }
+    return self;
+}
+- (void)kill {
+    self.alive=NO;
+}
 @end

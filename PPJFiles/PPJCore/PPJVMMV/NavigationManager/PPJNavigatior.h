@@ -11,15 +11,16 @@
 #import "PPJNavigationAction.h"
 #import "PPJFunction.h"
 #import "PPJClassesScope.h"
+@class PPJApp;
 @class UIWindow;
 
-@interface PPJNavigatior : NSObject
+@interface PPJNavigatior : PPJObject
 -(instancetype)initWithWindow:(UIWindow*)window;
 
 
 @property  (nonatomic, retain)NSDictionary  * routes;
 @property  (nonatomic,weak)UIWindow * window;
-@property  (nonatomic, weak) PPJClassesScope * classesScope;
+@property  (nonatomic, weak) PPJApp * ppjApp;
 
 @property  (nonatomic, retain)PPJFunction * pathFunction;
 

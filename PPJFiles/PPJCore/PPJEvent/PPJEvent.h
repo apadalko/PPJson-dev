@@ -12,4 +12,7 @@
 +(instancetype)createWithName:(NSString*)name andValue:(id)value;
 @property (nonatomic,retain)NSString * eventName;
 @property (nonatomic)id value;
+-(void)kill;
+
+@property  (nonatomic)BOOL alive;
 @end

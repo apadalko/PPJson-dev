@@ -6,20 +6,46 @@
 #import "PPJScreenFabric.h"
 #import "PPJApp.h"
 #import <MJExtension/NSObject+MJProperty.h>
+
+@interface PPJScreenFabric()
+
+@property  (nonatomic, retain)NSDictionary * viewModelsScope;
+@property (nonatomic, retain)NSDictionary * viewControllersScope;
+
+@end
+
 @implementation PPJScreenFabric {
 
 }
-+(PPJViewModel *)viewModelFromVCClassName:(NSString *)vcClassName data:(id)data classesScope:(PPJClassesScope *)classesScope{
 
-    NSDictionary * vcData = [classesScope.viewControllers valueForKey:vcClassName];
++ (instancetype)createWithViewModelsScope:(NSDictionary *)viewModelsScope andViewControllersScope:(NSDictionary *)viewControllersScope {
+    PPJScreenFabric * screenFabric = [[PPJScreenFabric alloc] init];
+
+    screenFabric.viewControllersScope=viewControllersScope;
+    screenFabric.viewModelsScope=viewModelsScope;
+
+    return screenFabric;
+}
+-(PPJViewModel *)viewModelFromVCClassName:(NSString *)vcClassName data:(id)data{
+
+    PPJViewModel * vm = [self _viewModelFromVCClassName:vcClassName];
 
 
-    Class requaredVMClass = [self findRequredVMClassFromVCClassName:vcClassName classesScope:classesScope];
+
+
+    return vm;
+}
+-(PPJViewModel *)_viewModelFromVCClassName:(NSString *)vcClassName{
+
+    NSDictionary * vcData = [self.viewControllersScope valueForKey:vcClassName];
+
+
+    Class requaredVMClass = [self findRequredVMClassFromVCClassName:vcClassName];
 
 
 
     if ([vcData valueForKey:@"$view_model"]){
-        NSDictionary * viewModelData = [[classesScope viewModels] valueForKey:[vcData valueForKey:@"$view_model"]];
+        NSDictionary * viewModelData = [self.viewModelsScope valueForKey:[vcData valueForKey:@"$view_model"]];
         if (viewModelData){
 
             return [requaredVMClass mj_objectWithKeyValues:viewModelData];
@@ -33,21 +59,21 @@
     }
 
 }
-+(PPJViewController *)viewControlleFromVCClassName:(NSString *)vcClassName andVM:(PPJViewModel *)viewModel classesScope:(PPJClassesScope *)classesScope{
+-(PPJViewController *)viewControllerFromVCClassName:(NSString *)vcClassName andVM:(PPJViewModel *)viewModel{
 
-    Class  <PPJViewControllerProt> cl =  [self findRequredVCClassFromVCClassName:vcClassName classesScope:classesScope];
+    Class  <PPJViewControllerProt> cl =  [self findRequredVCClassFromVCClassName:vcClassName];
 
     return [cl createWithViewModel:viewModel];
 
 }
 
 
-+(PPJViewModel *)viewModelWithData:(NSDictionary *)data{
+-(PPJViewModel *)viewModelWithData:(NSDictionary *)data{
     return nil;
 }
 
-+(Class)findRequredVCClassFromVCClassName:(NSString *)vcClassName classesScope:(PPJClassesScope *)classesScope{
-    NSDictionary * vcData = [classesScope.viewControllers valueForKey:vcClassName];
+-(Class)findRequredVCClassFromVCClassName:(NSString *)vcClassName{
+    NSDictionary * vcData = [self.viewControllersScope valueForKey:vcClassName];
     Class coreVCClass=NSClassFromString(vcClassName);
     if (coreVCClass){
         return coreVCClass;
@@ -58,16 +84,16 @@
             return [PPJViewController class];
 
         } else{
-            return  [self findRequredVCClassFromVCClassName:superClassName classesScope:classesScope];
+            return  [self findRequredVCClassFromVCClassName:superClassName];
         }
     }
 
 
 
 }
-+(Class)findRequredVMClassFromVCClassName:(NSString *)vcClassName classesScope:(PPJClassesScope *)classesScope{
+-(Class)findRequredVMClassFromVCClassName:(NSString *)vcClassName {
 
-    NSDictionary * vcData = [classesScope.viewControllers valueForKey:vcClassName];
+    NSDictionary * vcData = [self.viewControllersScope valueForKey:vcClassName];
     NSString * requearedVCSubclass;
     Class coreVCClass=NSClassFromString(vcClassName);
     NSString * viewModelClass = [vcData valueForKey:@"$view_model"];
@@ -81,7 +107,7 @@
         if (!superClassName){
             return [PPJViewModel class];
         } else{
-            return  [self findRequredVMClassFromVCClassName:superClassName classesScope:classesScope];
+            return  [self findRequredVMClassFromVCClassName:superClassName];
         }
     } else {
 

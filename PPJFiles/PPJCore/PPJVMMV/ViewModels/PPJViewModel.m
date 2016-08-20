@@ -12,7 +12,7 @@
 @synthesize actionSignal=_actionSignal;
 @synthesize navigationSignal=_navigationSignal;
 @synthesize switchViewControllerSignal=_switchViewControllerSignal;
-
+@synthesize actions=_actions;
 
 @synthesize viewDidAppearSignal=_viewDidAppearSignal;
 @synthesize viewDidDissapiarSignal=_viewDidDissapiarSignal;
@@ -23,6 +23,53 @@
 
 
 @synthesize presentOptionsList=_presentOptionsList;
+
+
+
+
+
+
+#pragma mark - new
+
+
+-(void)activateActionWithName:(NSString *)name andData:(id)data{
+
+    [self activateAction:[PPJAction actionWithName:name andValue:data]];
+
+}
+-(void)activateAction:(PPJAction*)action{
+
+    [self switchToWorkQueue:^{
+
+
+        NSLog(@"%@", [[self actions] valueForKey:[action name]]);
+
+
+
+
+    }];
+
+
+}
+
+#pragma mark - old
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -(void)dataDidLoad{
     
 }

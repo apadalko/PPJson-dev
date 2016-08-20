@@ -8,63 +8,65 @@
 
 #import "PPJNavigationAction.h"
 
+NSString *kPPJRouteDeadlock = @"$deadlock";
+NSString *kPPJRoutePlayground = @"$playground";
+
 @implementation PPJNavigationAction
 
 +(instancetype)deadlock{
-    return [[self alloc] initWithDirection:PPJNavigationDeadLock fromVM:nil andViewModel:nil andSwitchBlock:nil];
+    return [[self alloc] initWithRoute:kPPJRouteDeadlock fromVM:nil andViewModel:nil andSwitchBlock:nil];
 }
-+(instancetype)actionWithDirection:(NSInteger)direction  fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
++(instancetype)actionWithRoute:(NSString *)route  fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
     
-     return [[self alloc] initWithDirection:direction fromVM:(id<PPJViewModelProt>)fromVM  andVMData:vmData andSwitchBlock:switchBlock];
+     return [[self alloc] initWithRoute:route fromVM:(id<PPJViewModelProt>)fromVM  andVMData:vmData andSwitchBlock:switchBlock];
     
-}
-
-+(instancetype)actionWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM  andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
-    
-    return [[self alloc] initWithDirection:direction fromVM:(id<PPJViewModelProt>)fromVM andViewModel:viewModel andSwitchBlock:switchBlock];
-}
-+(instancetype)actionWithArrayOfDirections:(NSArray *)directions fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray *)vmData andSwitchBlock:(void (^)(NSArray<PPJViewControllerProt> *switchablesVc))switchBlock{
-    
-    
-       return [[self alloc] initWithArrayOfDirections:directions fromVM:fromVM andVMData:vmData andSwitchBlock:switchBlock];
 }
 
--(instancetype)initWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
++(instancetype)actionWithRoute:(NSString * )route fromVM:(id<PPJViewModelProt>)fromVM  andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
+    
+    return [[self alloc] initWithRoute:route fromVM:(id<PPJViewModelProt>)fromVM andViewModel:viewModel andSwitchBlock:switchBlock];
+}
++(instancetype)initWithArrayOfRoutes:(NSArray *)routes fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray *)vmData andSwitchBlock:(void (^)(NSArray<PPJViewControllerProt> *switchablesVc))switchBlock{
+    
+    
+       return [[self alloc] initWithArrayOfRoutes:routes fromVM:fromVM andVMData:vmData andSwitchBlock:switchBlock];
+}
+
+-(instancetype)initWithRoute:(NSString *)route fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
     if (self=[super init]) {
         
         self.fromVM=fromVM;
-        self.direction=direction;
+        self.route=route;
         self.vmData=vmData;
         self.switchBlock=switchBlock;
-        self.requestType=SANavigationRequestTypeDefault;
+        self.requestType=PPJNavigationRequestTypeDefault;
     }
     return self;
 }
 
 
--(instancetype)initWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM  andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
+-(instancetype)initWithRoute:(NSString *)route fromVM:(id<PPJViewModelProt>)fromVM  andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> sitchableVc))switchBlock{
     
     
     if (self=[super init]) {
-     
-        self.direction=direction;
+        self.route=route;
         self.viewModel=viewModel;
         self.switchBlock=switchBlock;
         self.fromVM=fromVM;
-           self.requestType=SANavigationRequestTypeDefault;
+        self.requestType=PPJNavigationRequestTypeDefault;
     }
     return self;
 }
 
--(instancetype)initWithArrayOfDirections:(NSArray *)directions fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray *)vmData andSwitchBlock:(void (^)(NSArray<PPJViewControllerProt> *))switchBlock{
+-(instancetype)initWithArrayOfRoutes:(NSArray *)routes fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray *)vmData andSwitchBlock:(void (^)(NSArray<PPJViewControllerProt> *))switchBlock{
     
     if (self=[super init]) {
         
-        self.directions=directions;
+        self.routes=routes;
         self.switchArrayBlock=switchBlock;
         self.fromVM=fromVM;
         self.vmData=vmData;
-        self.requestType=SANavigationRequestTypeCollection;
+        self.requestType=PPJNavigationRequestTypeCollection;
     }
     return self;
     

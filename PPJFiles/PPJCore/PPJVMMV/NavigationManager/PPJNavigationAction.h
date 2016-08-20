@@ -9,20 +9,18 @@
 #import <Foundation/Foundation.h>
 @protocol PPJViewControllerProt;
 @protocol PPJViewModelProt;
-typedef void(^SANavSwitchBlock)(id<PPJViewControllerProt> switchableVc);
-typedef void(^SANavSwitchArrayBlock)(NSArray<PPJViewControllerProt> *switchablesVcs);
-typedef NS_ENUM(NSInteger, PPJNavigationDirection) {
+typedef void(^PPJNavSwitchBlock)(id<PPJViewControllerProt> switchableVc);
+typedef void(^PPJNavSwitchArrayBlock)(NSArray<PPJViewControllerProt> *switchablesVcs);
 
-    //initial
-   PPJNavigationDeadLock,
-      
-    
-};
 
-typedef NS_ENUM(NSInteger, SANavigationRequestType) {
-    
-    SANavigationRequestTypeDefault,
-    SANavigationRequestTypeCollection
+
+
+extern NSString *kPPJRouteDeadlock;
+extern NSString *kPPJRoutePlayground;
+typedef NS_ENUM(NSInteger, PPJNavigationRequestType) {
+
+    PPJNavigationRequestTypeDefault,
+    PPJNavigationRequestTypeCollection
     
 };
 @interface PPJNavigationAction : NSObject
@@ -30,31 +28,31 @@ typedef NS_ENUM(NSInteger, SANavigationRequestType) {
 
 +(instancetype)deadlock;
 
--(instancetype)initWithArrayOfDirections:(NSArray*)directions fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(NSArray<PPJViewControllerProt> *switchablesVcs))switchBlock;;
+-(instancetype)initWithArrayOfRoutes:(NSArray*)routes fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(NSArray<PPJViewControllerProt> *switchablesVcs))switchBlock;;
 
 
--(instancetype)initWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;;
+-(instancetype)initWithRoute:(NSString *)route fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;;
 
 
--(instancetype)initWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;
+-(instancetype)initWithRoute:(NSString *)route fromVM:(id<PPJViewModelProt>)fromVM andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;
 
 
-+(instancetype)actionWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;
-+(instancetype)actionWithDirection:(NSInteger)direction fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;
++(instancetype)actionWithRoute:(NSString *)route fromVM:(id<PPJViewModelProt>)fromVM andViewModel:(id<PPJViewModelProt>)viewModel andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;
++(instancetype)actionWithRoute:(NSString *)route fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(id<PPJViewControllerProt> switchableVc))switchBlock;
 
 
-+(instancetype)actionWithArrayOfDirections:(NSArray*)directions fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(NSArray<PPJViewControllerProt> *switchablesVcs))switchBlock;;
++(instancetype)actionWithArrayOfRoute:(NSArray*)routes fromVM:(id<PPJViewModelProt>)fromVM andVMData:(NSArray*)vmData andSwitchBlock:(void(^)(NSArray<PPJViewControllerProt> *switchablesVcs))switchBlock;;
 
 @property (nonatomic,retain)id<PPJViewModelProt> viewModel;
 @property (nonatomic,retain)NSArray * vmData;
-@property (nonatomic)NSInteger direction;
-@property (nonatomic)NSArray *  directions;
+@property (nonatomic)NSString * route;
+@property (nonatomic)NSArray *  routes;
 @property (weak,nonatomic)id<PPJViewModelProt>fromVM;
 
-@property (nonatomic)SANavigationRequestType requestType;
+@property (nonatomic)PPJNavigationRequestType requestType;
 
-@property (nonatomic,copy)SANavSwitchBlock switchBlock;
-@property (nonatomic,copy)SANavSwitchBlock switchArrayBlock;
+@property (nonatomic,copy)PPJNavSwitchBlock switchBlock;
+@property (nonatomic,copy)PPJNavSwitchBlock switchArrayBlock;
 
 -(void)complitWithVc:(id<PPJViewControllerProt>)vc;
 

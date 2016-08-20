@@ -1,5 +1,5 @@
 //
-//  PPJNavigationManager.h
+//  PPJNavigatior.h
 //  Blok
 //
 //  Created by Alex Padalko on 9/27/15.
@@ -9,12 +9,21 @@
 #import <Foundation/Foundation.h>
 #import "PPJViewModelProt.h"
 #import "PPJNavigationAction.h"
+#import "PPJFunction.h"
+#import "PPJClassesScope.h"
 @class UIWindow;
 
-@interface PPJNavigationManager : NSObject
+@interface PPJNavigatior : NSObject
 -(instancetype)initWithWindow:(UIWindow*)window;
 
-@property (nonatomic,weak)UIWindow * window;
+
+@property  (nonatomic, retain)NSDictionary  * routes;
+@property  (nonatomic,weak)UIWindow * window;
+@property  (nonatomic, weak) PPJClassesScope * classesScope;
+
+@property  (nonatomic, retain)PPJFunction * pathFunction;
+
+
 -(void)loadNavigation;
 -(void)didReciveNavigationAction:(PPJNavigationAction*)navigationAction;
 

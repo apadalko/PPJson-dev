@@ -15,6 +15,21 @@
 #import "PPJViewControllerProt.h"
 #import "PPJSDObjectDelegate.h"
 @protocol PPJViewModelProt <PPJSDObjectDelegate>
+
+#pragma mark - new
+-(void)activateActionWithName:(NSString *)name andData:(id)data;
+-(void)activateAction:(PPJAction*)action;
+@property (nonatomic, retain) NSDictionary * actions;
+
+#pragma mark - old
+
+
+
+
+
+
+
+
 -(void)dataDidLoad;
 @property (nonatomic,retain)RACSignal * navigationSignal;
 @property (nonatomic,retain)RACSignal * actionSignal;

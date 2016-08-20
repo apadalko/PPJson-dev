@@ -7,7 +7,7 @@
 //
 #import "Reachability.h"
 #import "PPJNetworkManager.h"
-NSString *kPPJEventNetworkManagerNeworkAvilable = @"nework_avilable";
+NSString *kPPJEventNetworkManagerNeworkAvilable = @"network_available";
 @interface PPJNetworkManager () {
     BOOL _firstStatus;
 }
@@ -16,6 +16,11 @@ NSString *kPPJEventNetworkManagerNeworkAvilable = @"nework_avilable";
 @end
 @implementation PPJNetworkManager
 
+
+- (BOOL)networkAvailable {
+
+    return self.lastReachabilityStatus==NotReachable?NO:YES;
+}
 
 - (id)init {
     if (self = [super init]) {
@@ -27,7 +32,6 @@ NSString *kPPJEventNetworkManagerNeworkAvilable = @"nework_avilable";
     }
     return self;
 }
-
 - (void) reachabilityChanged:(NSNotification *)note {
     Reachability* curReach = [note object];
     NSParameterAssert([curReach isKindOfClass:[Reachability class]]);

@@ -10,12 +10,20 @@
 
 @interface PPJManager ()
 
-@property (nonatomic,retain)NSMutableDictionary * observersScopes;
-@property (nonatomic,retain)dispatch_queue_t workQuene;
+
 
 @end
 @implementation PPJManager
 static NSMutableDictionary * instances;
+@synthesize workQuene=_workQuene;
+- (dispatch_queue_t)workQuene {
+
+    if (!_workQuene){
+        NSString * quineName =[NSString stringWithFormat:@"com.ppj.manager.%@",  NSStringFromClass([self class])];
+        _workQuene = dispatch_queue_create([quineName UTF8String],  0);
+    }
+    return _workQuene;
+}
 +(instancetype)sharedInstance{
     if (!instances) {
         instances=[[NSMutableDictionary alloc] init];

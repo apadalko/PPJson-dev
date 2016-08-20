@@ -22,4 +22,6 @@ extern NSString *kPPJEventNetworkManagerNeworkAvilable;
 
 @interface PPJNetworkManager : PPJManager
 
+@property (nonatomic)BOOL  network_available;
+
 @end

@@ -1,30 +1,46 @@
 //
-//  AppDelegate.m
-//  PPJson
-//
-//  Created by Alex Padalko on 8/18/16.
-//  Copyright © 2016 PlacePixel. All rights reserved.
+// Created by Alex Padalko on 8/19/16.
+// Copyright (c) 2016 PlacePixel. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "ViewController.h"
-@interface AppDelegate ()
+#import "PPJAppDelegate.h"
 
-@end
 
-@implementation AppDelegate
+@implementation PPJAppDelegate {
 
+}
+
+
+#pragma mark - loading methods
+
+-(void)load{
+
+    self.ppjApp=[PPJApp create];
+
+
+
+
+    self.ppjApp.navigator.window=self.window;
+    [self.ppjApp.navigator loadNavigation];
+
+
+}
+
+
+#pragma mark - app delegate methods
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    
+
+
+
+
     self.window=[[UIWindow alloc] init];
     [self.window makeKeyAndVisible];
     [self.window setFrame:[[UIScreen mainScreen] bounds]];
     [self.window setBackgroundColor:[UIColor whiteColor]];
-    self.window.rootViewController=[[ViewController alloc] init];
+    self.window.rootViewController=[[UIViewController alloc] init];
+    [self load];
 
-    
     return YES;
 }
 
@@ -51,6 +67,4 @@
     // Saves changes in the application's managed object context before the application terminates.
 
 }
-
-
 @end

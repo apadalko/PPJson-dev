@@ -9,8 +9,6 @@
 #import "PPJNavigatior.h"
 #import "PPJViewModel.h"
 #import "PPJScreenFabric.h"
-
-#import "PPJApp.h"
 @implementation PPJNavigatior
 
 -(instancetype)initWithWindow:(UIWindow *)window{
@@ -49,8 +47,8 @@
         }
 
             NSString *vcClassName = [self.routes valueForKey:navigationAction.route];
-        PPJViewModel *newViewModel =
-                [[self.ppjApp screenFabric] viewModelFromVCClassName:vcClassName data:navigationAction.vmData];
+        PPJViewModel *newViewModel = [PPJScreenFabric viewModelFromVCClassName:vcClassName data:navigationAction.vmData classesScope:self.classesScope];
+
         NSLog(@"%@", newViewModel);
 
 
@@ -71,7 +69,7 @@
         }];
 
         PPJViewController *vc =
-                [[self.ppjApp screenFabric] viewControllerFromVCClassName:vcClassName andVM:newViewModel];
+                [PPJScreenFabric viewControlleFromVCClassName:vcClassName andVM:newViewModel classesScope:self.classesScope];
 
         [navigationAction.fromVM didAddedSubVM:newViewModel];
 
@@ -80,8 +78,7 @@
         NSMutableArray<PPJViewControllerProt> * vcsToSwithc=[[NSMutableArray<PPJViewControllerProt> alloc] init];
         for (NSString * route in navigationAction.routes) {
             NSString *vcClassName = [self.routes valueForKey:navigationAction.route];
-            PPJViewModel *newViewModel =
-                    [[self.ppjApp screenFabric] viewModelFromVCClassName:vcClassName data:navigationAction.vmData];
+            PPJViewModel *newViewModel = [PPJScreenFabric viewModelFromVCClassName:vcClassName data:navigationAction.vmData classesScope:self.classesScope];
 
             @weakify(self);
             [RACObserve(newViewModel, navigationSignal) subscribeNext:^(RACSignal * sig) {
@@ -99,7 +96,7 @@
 
             }];
             PPJViewController *vc =
-                    [[self.ppjApp screenFabric] viewControllerFromVCClassName:vcClassName andVM:newViewModel];
+                    [PPJScreenFabric viewControlleFromVCClassName:vcClassName andVM:newViewModel classesScope:self.classesScope];
             [vcsToSwithc addObject:vc];
             [navigationAction.fromVM didAddedSubVM:newViewModel];
         }

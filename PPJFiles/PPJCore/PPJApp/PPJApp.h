@@ -5,22 +5,12 @@
 #import "PPJObject.h"
 #import "PPJNavigatior.h"
 
-
-#import "PPJServicesFabric.h"
-#import "PPJClientsFabric.h"
-#import "PPJScreenFabric.h"
 @interface PPJApp : PPJObject
 
 +(instancetype)create;
 
 @property  (nonatomic, retain) PPJNavigatior  * navigator;
 @property  (nonatomic, retain) PPJClassesScope * classesScope;
-
-
-
-
-@property  (nonatomic, retain) PPJScreenFabric * screenFabric;
-@property  (nonatomic, retain) PPJServicesFabric * servicesFabric;
-@property  (nonatomic, retain) PPJClientsFabric * clientsFabric;
-
+@property  (nonatomic, retain) NSMutableDictionary * view_models;
+@property  (nonatomic, retain) NSMutableDictionary * view_controllers;
 @end

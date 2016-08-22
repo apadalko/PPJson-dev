@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		7A1F30080239C2A151062AF0 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F32E2D9E53F16BC59BD2A /* Contents.json */; };
 		7A1F3008E7E37532AA51D96A /* Pokebot_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F356A95A175D10AAA2F61 /* Pokebot_2@2x.png */; };
 		7A1F3020FF7B9070F398F4A9 /* gm_trim@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3949CD32ED200075D31C /* gm_trim@2x.png */; };
@@ -188,6 +189,22 @@
 		7A1F379EAC9CE73877EF6EF0 /* gm_follow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3F1F49EC545B010C6700 /* gm_follow@2x.png */; };
 		7A1F37A2639BBB9EB58A2DC3 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3775214FE9CAC74AF160 /* Contents.json */; };
 		7A1F37B4D2AA70F82F650705 /* gm_NEWevent_large@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3A32D542A06155ABC9A9 /* gm_NEWevent_large@2x.png */; };
+=======
+		7A1F3054E20D4AADA518934B /* PPGridAnimationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3E02180FD6A0B59578A0 /* PPGridAnimationObject.m */; };
+		7A1F31057A824434DB4F30CF /* PPGMWelcomeChatBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F31026DFFA54988968387 /* PPGMWelcomeChatBubbleView.m */; };
+		7A1F31A1B3D9F21AC1B8F29E /* PPJClassesScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F36AA7687C0CA232C2B82 /* PPJClassesScope.m */; };
+		7A1F335A70E5C7681B795B63 /* PPJScreenFabric.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3BA6E609688E48EA0EAD /* PPJScreenFabric.m */; };
+		7A1F336F94F198FA8872EE09 /* PPJScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3A6C43DD49C2E87E921D /* PPJScreen.m */; };
+		7A1F33B69A329869022C65A0 /* PPGMSuperWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F31DD2402AC6F764C32EA /* PPGMSuperWelcomeViewController.m */; };
+		7A1F342AE3DB9CD4E2D7C762 /* PPGMChatBubbleAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3597B30AAAA3005628F9 /* PPGMChatBubbleAuthView.m */; };
+		7A1F3504898288331AFAC150 /* PPGridCellUserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F322FC1B72C38361843D2 /* PPGridCellUserView.m */; };
+		7A1F354AE165ABF4778208C1 /* PPKeyBoardedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3C8D40FDCCB56A453A48 /* PPKeyBoardedNavigationController.m */; };
+		7A1F3594B7BFC918FF6BB144 /* PPGridCellUserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F32BEF5F4E968CB19FC87 /* PPGridCellUserObject.m */; };
+		7A1F3670CECADCD5FB168F1C /* PPJViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F370798BE6F38B928ECDE /* PPJViewModel.m */; };
+		7A1F36C302F2AD52D9ECAEE9 /* PPGridCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F35543368822D2FFF6D41 /* PPGridCellObject.m */; };
+		7A1F36CAC6686412A4C3464E /* contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3FA649A75AA8243FB1DF /* contents.json */; };
+		7A1F36D1EFF35F75DBAD80E6 /* PPGridCellPersonaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F325EBEAC13A7C57F2993 /* PPGridCellPersonaObject.m */; };
+>>>>>>> parent of 290661a... jj
 		7A1F37C61FFFBE5AD91129F8 /* ppj_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3BFA9F0ED56EDCD1C687 /* ppj_test.json */; };
 		7A1F37CAB2BB57AEC305A0C7 /* PPKeyBoardedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3B0D20247D28EAB84440 /* PPKeyBoardedNavigationController.m */; };
 		7A1F37CC428DF5E96B7AC66F /* PPGridCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F36AE78E4BFC7E1B2DBA8 /* PPGridCellObject.m */; };
@@ -229,6 +246,7 @@
 		7A1F38B938A6152B0DF0A24C /* gm_share_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F33A43CA987449AC7032C /* gm_share_grey@2x.png */; };
 		7A1F38C7B697334B0F6E3D86 /* gm_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F36906F266CE7C8EBAB38 /* gm_error@2x.png */; };
 		7A1F38D9995D4CFAAA6C3B95 /* PPJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3C5740FFC195CD3106EC /* PPJObject.m */; };
+<<<<<<< HEAD
 		7A1F38E493D94EC835F40E12 /* lb_zombie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F33935101D306C3D76AD5 /* lb_zombie@2x.png */; };
 		7A1F38E55B947C42C9CD1D9D /* gm_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3A408858653A5432CACC /* gm_top@2x.png */; };
 		7A1F38F15E4275FA7CE6CCD8 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3BD25FC9F5EBC09A07E4 /* Contents.json */; };
@@ -411,6 +429,21 @@
 		7A1F3FC7548BE03E4FB90F96 /* gm_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3A50C461398325BCFEE4 /* gm_new@2x.png */; };
 		7A1F3FC76FFAB7CCE7400DDE /* lb_winking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3D837DE9A423CB5D3DA0 /* lb_winking@2x.png */; };
 		7A1F3FEA5466ACD60328326C /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F31EF3D475C60C8846E47 /* Contents.json */; };
+=======
+		7A1F392EBFD04F68D25DCB9B /* PPGMWelcomeScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3429F6E91C140B42B3DB /* PPGMWelcomeScreenViewModel.m */; };
+		7A1F39B705969DB3A8C6950A /* PPJFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3C5486C42680700A6C73 /* PPJFunction.m */; };
+		7A1F3A645EEA719B839F6D08 /* PPGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F38506A20DDD083067D43 /* PPGridView.m */; };
+		7A1F3AADFAC4077C89D35E4F /* PPJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3182455177080430DD3A /* PPJView.m */; };
+		7A1F3ACA74ACAC0350BFE118 /* PPGridCellChatBubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F380312A638D2063ACC2A /* PPGridCellChatBubleView.m */; };
+		7A1F3B343DCBF3D1DFA3AAFF /* PPJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F397FEAEAAA85B53C9BF3 /* PPJAppDelegate.m */; };
+		7A1F3C1EA54C23601FFE502E /* contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3F96D0CD816BE30B7FDD /* contents.json */; };
+		7A1F3CF983DEFC43D0C332C4 /* PPGMSuperWelcomeViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F36E5B019FB3FD5E4A1E5 /* PPGMSuperWelcomeViewController.json */; };
+		7A1F3D8E8B9FF4BB951CBB9E /* PPGridCellPersonaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3BB6AD9C0E16AEAB486E /* PPGridCellPersonaView.m */; };
+		7A1F3DA0A6E4AF5ADC587B23 /* PPGMAuthViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F37DB991BA79E88ED48F6 /* PPGMAuthViewModel.m */; };
+		7A1F3E477F1F01A6BEEC8C3F /* PPGridCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3C3FEB85F71718552EB4 /* PPGridCellView.m */; };
+		7A1F3F5102C8684255268814 /* PPGMWelcomeChatTextBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3F713F9E5B3A3A8B5D9D /* PPGMWelcomeChatTextBubbleView.m */; };
+		7A1F3F73DB8AFF154B595215 /* PPGridBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F323728EE6ABFE4B6A18A /* PPGridBackgroundView.m */; };
+>>>>>>> parent of 290661a... jj
 		B8B962D11D6624100087C35B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B962CC1D6624100087C35B /* LaunchScreen.storyboard */; };
 		B8B962D21D6624100087C35B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B962CD1D6624100087C35B /* main.m */; };
 		B8B962D31D6624100087C35B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B962CF1D6624100087C35B /* ViewController.m */; };
@@ -457,6 +490,7 @@
 		B8B963DB1D6632300087C35B /* PPJSDLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B963C81D6632300087C35B /* PPJSDLoadingView.m */; };
 		B8B963DC1D6632300087C35B /* PPJSDStatesObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B963CA1D6632300087C35B /* PPJSDStatesObject.m */; };
 		B8F6E3651D66733700C60CFB /* PPJEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E3641D66733700C60CFB /* PPJEvent.m */; };
+		B8F6E36C1D66761300C60CFB /* PPJManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E36B1D66761300C60CFB /* PPJManager.m */; };
 		B8F6E37C1D667BF800C60CFB /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E3701D667BF800C60CFB /* UIColor+HEX.m */; };
 		B8F6E37D1D667BF800C60CFB /* PPJOptionsListObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E3741D667BF800C60CFB /* PPJOptionsListObject.m */; };
 		B8F6E37E1D667BF800C60CFB /* RACCommand+MethodRedirection.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E3771D667BF800C60CFB /* RACCommand+MethodRedirection.m */; };
@@ -508,6 +542,7 @@
 		7A1F317BFC463791560B0818 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F317DED32A7579539C8CA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F3182455177080430DD3A /* PPJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJView.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7A1F31BB266A34FA88F73E1B /* gm_emptylocationsearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_emptylocationsearch@2x.png"; sourceTree = "<group>"; };
 		7A1F31C018C2B21B791D1FEC /* gm_es_bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_es_bookmark@2x.png"; sourceTree = "<group>"; };
 		7A1F31CC03A667D575802FF2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -570,10 +605,21 @@
 		7A1F33AB91A14ED43A6B58F3 /* lb_tiny_sad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lb_tiny_sad@2x.png"; sourceTree = "<group>"; };
 		7A1F33D57364F81A0EA3EFF3 /* gm_NEWprofile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_NEWprofile@2x.png"; sourceTree = "<group>"; };
 		7A1F33D6EC697C342E2E13F5 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+=======
+		7A1F31DD2402AC6F764C32EA /* PPGMSuperWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMSuperWelcomeViewController.m; sourceTree = "<group>"; };
+		7A1F322FC1B72C38361843D2 /* PPGridCellUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellUserView.m; sourceTree = "<group>"; };
+		7A1F323728EE6ABFE4B6A18A /* PPGridBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridBackgroundView.m; sourceTree = "<group>"; };
+		7A1F325EBEAC13A7C57F2993 /* PPGridCellPersonaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellPersonaObject.m; sourceTree = "<group>"; };
+		7A1F32BEF5F4E968CB19FC87 /* PPGridCellUserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellUserObject.m; sourceTree = "<group>"; };
+		7A1F331B0859E7968F38151F /* PPJFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJFunction.h; sourceTree = "<group>"; };
+		7A1F331F8D086A7F5485F8F8 /* PPGridAnimationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridAnimationObject.h; sourceTree = "<group>"; };
+		7A1F332F6B5E512286AC212B /* PPGridCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellObject.h; sourceTree = "<group>"; };
+>>>>>>> parent of 290661a... jj
 		7A1F33F9529BF56FD44C9D3F /* PPJEventObserverProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJEventObserverProt.h; sourceTree = "<group>"; };
 		7A1F34023DBAC7994952AA7F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F3405BEC6329CD0B98E82 /* PPGMWelcomeChatTextBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGMWelcomeChatTextBubbleView.h; sourceTree = "<group>"; };
 		7A1F340ADFC26D1D9EA3B4A0 /* PPJClassesScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJClassesScope.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7A1F3428830E7A64D4CC00AA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F342F973672F1C22D5240 /* gm_username@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_username@2x.png"; sourceTree = "<group>"; };
 		7A1F343A020AB14B4F87D78C /* PPJClientsFabric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJClientsFabric.m; sourceTree = "<group>"; };
@@ -639,12 +685,19 @@
 		7A1F368BFFB12A61E1CE339A /* PPGridCellPersonaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellPersonaObject.h; sourceTree = "<group>"; };
 		7A1F36906F266CE7C8EBAB38 /* gm_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_error@2x.png"; sourceTree = "<group>"; };
 		7A1F36A2032EFEFAB327AB1E /* PPJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJButton.h; sourceTree = "<group>"; };
+=======
+		7A1F3429F6E91C140B42B3DB /* PPGMWelcomeScreenViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMWelcomeScreenViewModel.m; sourceTree = "<group>"; };
+		7A1F347B2D564121CAF1D212 /* PPKeyBoardedViewControllerProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPKeyBoardedViewControllerProt.h; sourceTree = "<group>"; };
+		7A1F35543368822D2FFF6D41 /* PPGridCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellObject.m; sourceTree = "<group>"; };
+		7A1F3597B30AAAA3005628F9 /* PPGMChatBubbleAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMChatBubbleAuthView.m; sourceTree = "<group>"; };
+>>>>>>> parent of 290661a... jj
 		7A1F36AA7687C0CA232C2B82 /* PPJClassesScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJClassesScope.m; sourceTree = "<group>"; };
 		7A1F36AE78E4BFC7E1B2DBA8 /* PPGridCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellObject.m; sourceTree = "<group>"; };
 		7A1F36B21FECA2EC995A2875 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F36B287085256440991A0 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F36B2DADF5CCE8B617EB2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F36C4760F3B6C94BEAB32 /* PPJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7A1F36C4A8E93E2DC67DEEAF /* gm_usermask_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_usermask_blue@2x.png"; sourceTree = "<group>"; };
 		7A1F36C6B8160100698836C3 /* gm_NEWhistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_NEWhistory@2x.png"; sourceTree = "<group>"; };
 		7A1F36D132BDEECFD40045C6 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -664,6 +717,11 @@
 		7A1F372E9DEA791A551D4203 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F37360B37D827CF14FDBF /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F373B93F6AD481EA4783E /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+=======
+		7A1F36E5B019FB3FD5E4A1E5 /* PPGMSuperWelcomeViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PPGMSuperWelcomeViewController.json; sourceTree = "<group>"; };
+		7A1F370798BE6F38B928ECDE /* PPJViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJViewModel.m; sourceTree = "<group>"; };
+		7A1F371D1A0094F04744B2EA /* PPGridCellUserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellUserView.h; sourceTree = "<group>"; };
+>>>>>>> parent of 290661a... jj
 		7A1F374331E45C499C9448E2 /* PPJApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJApp.h; sourceTree = "<group>"; };
 		7A1F3748A783B4E5520BEE4B /* ico_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_back@2x.png"; sourceTree = "<group>"; };
 		7A1F374FAE50E9A65FF3A66D /* gm_usermask_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_usermask_grey@2x.png"; sourceTree = "<group>"; };
@@ -686,6 +744,7 @@
 		7A1F37F4B98C7CBAA856ACB7 /* gm_flashtoggled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_flashtoggled@2x.png"; sourceTree = "<group>"; };
 		7A1F37FECB8CD96C9F4E3B44 /* fullScreen_banner_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullScreen_banner_bg@2x.png"; sourceTree = "<group>"; };
 		7A1F381623065BA338920730 /* PPJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJViewController.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		7A1F382809BD9D8B1B27F22E /* UIFont+AppFonts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AppFonts.h"; sourceTree = "<group>"; };
 		7A1F382C252016F211059827 /* gm_listsearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_listsearch@2x.png"; sourceTree = "<group>"; };
 		7A1F3852FF020573F6605675 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -930,6 +989,39 @@
 		7A1F3FEC57E49321F07945B0 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F3FEDEAF79FDC938A49AC /* lb_tiny_supersad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lb_tiny_supersad@2x.png"; sourceTree = "<group>"; };
 		7A1F3FF7EA4F6FCEB7EB8DF1 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+=======
+		7A1F381AEBDE8F71BD735F7B /* PPGMWelcomeChatBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGMWelcomeChatBubbleView.h; sourceTree = "<group>"; };
+		7A1F382A434B4734BCDCD93B /* PPKeyBoardedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPKeyBoardedNavigationController.h; sourceTree = "<group>"; };
+		7A1F383505B8CEB570A86E86 /* PPGridCellUserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellUserObject.h; sourceTree = "<group>"; };
+		7A1F38506A20DDD083067D43 /* PPGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridView.m; sourceTree = "<group>"; };
+		7A1F3974BDDE36108EFF8922 /* PPObjectProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPObjectProt.h; sourceTree = "<group>"; };
+		7A1F397FEAEAAA85B53C9BF3 /* PPJAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJAppDelegate.m; sourceTree = "<group>"; };
+		7A1F3A053961977D259155D5 /* PPGMWelcomeScreenViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGMWelcomeScreenViewModel.h; sourceTree = "<group>"; };
+		7A1F3A6C43DD49C2E87E921D /* PPJScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJScreen.m; sourceTree = "<group>"; };
+		7A1F3AD4AB8F6B33A01BA335 /* PPGridCellChatBubleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellChatBubleView.h; sourceTree = "<group>"; };
+		7A1F3B2A7A4B5ABEB2981DF2 /* PPGridCellPersonaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellPersonaView.h; sourceTree = "<group>"; };
+		7A1F3BA6E609688E48EA0EAD /* PPJScreenFabric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJScreenFabric.m; sourceTree = "<group>"; };
+		7A1F3BB6AD9C0E16AEAB486E /* PPGridCellPersonaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellPersonaView.m; sourceTree = "<group>"; };
+		7A1F3BCE7730F087266D416D /* PPGridCellPersonaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellPersonaObject.h; sourceTree = "<group>"; };
+		7A1F3BFA9F0ED56EDCD1C687 /* ppj_test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ppj_test.json; sourceTree = "<group>"; };
+		7A1F3C0ED991F5FE327CDF25 /* PPJScreenFabric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJScreenFabric.h; sourceTree = "<group>"; };
+		7A1F3C3FEB85F71718552EB4 /* PPGridCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellView.m; sourceTree = "<group>"; };
+		7A1F3C5486C42680700A6C73 /* PPJFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJFunction.m; sourceTree = "<group>"; };
+		7A1F3C5740FFC195CD3106EC /* PPJObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJObject.m; sourceTree = "<group>"; };
+		7A1F3C6DA9F5B898E92B1F21 /* PPGridBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridBackgroundView.h; sourceTree = "<group>"; };
+		7A1F3C8D40FDCCB56A453A48 /* PPKeyBoardedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPKeyBoardedNavigationController.m; sourceTree = "<group>"; };
+		7A1F3CCD664E92629339F8FC /* PPGMAuthViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGMAuthViewModel.h; sourceTree = "<group>"; };
+		7A1F3D1A72498362B22C9126 /* PPUserProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUserProt.h; sourceTree = "<group>"; };
+		7A1F3E02180FD6A0B59578A0 /* PPGridAnimationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridAnimationObject.m; sourceTree = "<group>"; };
+		7A1F3E47C7DE44E3E5385D68 /* PPJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJObject.h; sourceTree = "<group>"; };
+		7A1F3F12738258667938A37E /* PPJViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJViewModel.h; sourceTree = "<group>"; };
+		7A1F3F347EF97FE58625AE13 /* PPJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJView.h; sourceTree = "<group>"; };
+		7A1F3F53E50FA5045EB8B383 /* PPPersonaObjProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPersonaObjProt.h; sourceTree = "<group>"; };
+		7A1F3F713F9E5B3A3A8B5D9D /* PPGMWelcomeChatTextBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMWelcomeChatTextBubbleView.m; sourceTree = "<group>"; };
+		7A1F3F96D0CD816BE30B7FDD /* contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contents.json; sourceTree = "<group>"; };
+		7A1F3FA649A75AA8243FB1DF /* contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contents.json; sourceTree = "<group>"; };
+		7A1F3FFFF655C25214914652 /* PPGMSuperWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGMSuperWelcomeViewController.h; sourceTree = "<group>"; };
+>>>>>>> parent of 290661a... jj
 		8D892D77E2307008358DD3C9 /* Pods-PPJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PPJson.release.xcconfig"; path = "Pods/Target Support Files/Pods-PPJson/Pods-PPJson.release.xcconfig"; sourceTree = "<group>"; };
 		B8B962AD1D6622280087C35B /* PPJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B962CC1D6624100087C35B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -1001,6 +1093,7 @@
 		B8B9636E1D66260A0087C35B /* PPJViewControllerProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJViewControllerProt.h; sourceTree = "<group>"; };
 		B8B9636F1D66260A0087C35B /* UIViewController+PPJViewControllerProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PPJViewControllerProt.h"; sourceTree = "<group>"; };
 		B8B963701D66260A0087C35B /* UIViewController+PPJViewControllerProt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PPJViewControllerProt.m"; sourceTree = "<group>"; };
+		B8B963741D66260A0087C35B /* PPJViewModelProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJViewModelProt.h; sourceTree = "<group>"; };
 		B8B963971D6626170087C35B /* PPJWaiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJWaiter.h; sourceTree = "<group>"; };
 		B8B963981D6626170087C35B /* PPJWaiter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJWaiter.m; sourceTree = "<group>"; };
 		B8B9639E1D6632300087C35B /* PPJSDDynamicDirectorViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJSDDynamicDirectorViewModel.h; sourceTree = "<group>"; };
@@ -1039,6 +1132,8 @@
 		B8B963CA1D6632300087C35B /* PPJSDStatesObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJSDStatesObject.m; sourceTree = "<group>"; };
 		B8F6E3631D66733700C60CFB /* PPJEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJEvent.h; sourceTree = "<group>"; };
 		B8F6E3641D66733700C60CFB /* PPJEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJEvent.m; sourceTree = "<group>"; };
+		B8F6E36A1D66761300C60CFB /* PPJManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJManager.h; sourceTree = "<group>"; };
+		B8F6E36B1D66761300C60CFB /* PPJManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJManager.m; sourceTree = "<group>"; };
 		B8F6E36F1D667BF800C60CFB /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
 		B8F6E3701D667BF800C60CFB /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
 		B8F6E3721D667BF800C60CFB /* PPJOptionListHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJOptionListHandler.h; sourceTree = "<group>"; };
@@ -1248,11 +1343,8 @@
 		7A1F30EE1AFB59DCC69BC07E /* PPJFabrics */ = {
 			isa = PBXGroup;
 			children = (
-				7A1F324228E44437484BF46D /* PPJServicesFabric.m */,
-				7A1F35BFD4721A45EF89BCD6 /* PPJServicesFabric.h */,
-				7A1F343A020AB14B4F87D78C /* PPJClientsFabric.m */,
-				7A1F34EA15D5CE58339D52B1 /* PPJClientsFabric.h */,
-				7A1F3257FAAC3812E0941D46 /* __ */,
+				7A1F3BA6E609688E48EA0EAD /* PPJScreenFabric.m */,
+				7A1F3C0ED991F5FE327CDF25 /* PPJScreenFabric.h */,
 			);
 			path = PPJFabrics;
 			sourceTree = "<group>";
@@ -1410,6 +1502,7 @@
 			path = gm_globe.imageset;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F3257FAAC3812E0941D46 /* __ */ = {
 			isa = PBXGroup;
 			children = (
@@ -1497,6 +1590,8 @@
 			path = __core;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 290661a... jj
 		7A1F331474A03B7CB52011A5 /* PPJFunction */ = {
 			isa = PBXGroup;
 			children = (
@@ -1539,8 +1634,6 @@
 				7A1F3C5740FFC195CD3106EC /* PPJObject.m */,
 				7A1F3E47C7DE44E3E5385D68 /* PPJObject.h */,
 				7A1F33F9529BF56FD44C9D3F /* PPJEventObserverProt.h */,
-				7A1F3FE56869276982816D67 /* PPJDataRequest.m */,
-				7A1F3E454E3D3E51E308BD30 /* PPJDataRequest.h */,
 			);
 			path = PPJObject;
 			sourceTree = "<group>";
@@ -1592,6 +1685,7 @@
 			path = PPJApp;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F33C7A3551DBBA84ADDD5 /* gm_invite_gabbermap.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -1602,6 +1696,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F33DE3CA59EF36F5CA190 /* 1_invite */ = {
+=======
+		7A1F36D1308803B199AAD664 /* PPGMPersonaGridView */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F315555587B15A9EC3A24 /* Contents.json */,
@@ -1615,6 +1712,7 @@
 			path = 1_invite;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F33EC87755E0551A67FE0 /* gm_settings.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -1634,6 +1732,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F33EE94BD3CA2D6BB6496 /* locateMe_icon.imageset */ = {
+=======
+		7A1F3A948C5DA47DF1966B6A /* services */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F3894BFE83503FA8C839B /* Contents.json */,
@@ -1651,6 +1752,7 @@
 			path = lb_frazzled.imageset;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F3422312602FB750F58E4 /* gm_star_yellow.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -1661,6 +1763,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F342F77576CD47236994F /* gm_map_arrow.imageset */ = {
+=======
+		7A1F3D6D04CC12B541359D9A /* personaCell_view */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F3C3FB62B03C4CEAF988F /* Contents.json */,
@@ -3173,11 +3278,14 @@
 				031DCBD9A01FE9237D3F6371 /* Pods */,
 				3AA451C180910AFF4C642044 /* Frameworks */,
 				7A1F3BFA9F0ED56EDCD1C687 /* ppj_test.json */,
+<<<<<<< HEAD
 				7A1F3D5BBA2EB126CC5670C8 /* gmservices.json */,
 				7A1F35B2818EDECF66E8B41B /* gmclients.json */,
 				7A1F3A82AEA7EAB9A7BA01AE /* gmviewmodels.json */,
 				7A1F360564BAABA9D99F7EB2 /* Resourses */,
 				7A1F3300598C8FD4AACC3E75 /* Info.plist */,
+=======
+>>>>>>> parent of 290661a... jj
 			);
 			sourceTree = "<group>";
 		};
@@ -3194,12 +3302,13 @@
 			children = (
 				B8B963971D6626170087C35B /* PPJWaiter.h */,
 				B8B963981D6626170087C35B /* PPJWaiter.m */,
+				B8F6E3671D6675E300C60CFB /* PPJManager */,
 				B8F6E3621D6672CE00C60CFB /* PPJEvent */,
-				B8F6E35F1D66721300C60CFB /* _managers */,
-				B8B9639C1D6632300087C35B /* _controllers */,
+				B8F6E35F1D66721300C60CFB /* managers */,
+				B8B9639C1D6632300087C35B /* controllers */,
 				B8B963BD1D6632300087C35B /* PPJLoadCell */,
 				B8B963C21D6632300087C35B /* PPJStatesObject */,
-				B8F6E36D1D667BF800C60CFB /* _helpers */,
+				B8F6E36D1D667BF800C60CFB /* helpers */,
 				B8B9633F1D66260A0087C35B /* PPJTransitionDirector */,
 				B8B963421D66260A0087C35B /* PPJVMMV */,
 				B8B963111D6624CD0087C35B /* PPJAction */,
@@ -3211,8 +3320,6 @@
 				7A1F331474A03B7CB52011A5 /* PPJFunction */,
 				7A1F30EE1AFB59DCC69BC07E /* PPJFabrics */,
 				7A1F3F15EB709DB3BA4BDCAC /* UI */,
-				7A1F37A92EE5D777C1A9EF49 /* _services */,
-				7A1F34431B691E413685B035 /* _clients */,
 			);
 			path = PPJCore;
 			sourceTree = "<group>";
@@ -3325,11 +3432,9 @@
 				B8B963431D66260A0087C35B /* ConfigurationManager */,
 				B8B963601D66260A0087C35B /* NavigationManager */,
 				B8B963671D66260A0087C35B /* ViewControllers */,
+				B8B963711D66260A0087C35B /* ViewModels */,
 				7A1F36C4760F3B6C94BEAB32 /* PPJViewController.m */,
 				7A1F381623065BA338920730 /* PPJViewController.h */,
-				7A1F3CC693C08A62FB6F83F1 /* PPJViewModel.h */,
-				7A1F3257A20AE854903E1B44 /* PPJViewModelProt.h */,
-				7A1F3F69DE19222D48E1E77B /* PPJViewModel.m */,
 			);
 			path = PPJVMMV;
 			sourceTree = "<group>";
@@ -3395,15 +3500,25 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		B8B9639C1D6632300087C35B /* _controllers */ = {
+		B8B963711D66260A0087C35B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B8B963741D66260A0087C35B /* PPJViewModelProt.h */,
+				7A1F3F12738258667938A37E /* PPJViewModel.h */,
+				7A1F370798BE6F38B928ECDE /* PPJViewModel.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B8B9639C1D6632300087C35B /* controllers */ = {
 			isa = PBXGroup;
 			children = (
 				B8B9639D1D6632300087C35B /* dynamic_smart_display */,
 				B8B963A21D6632300087C35B /* multiple_smart_display */,
-				B8B963B31D6632300087C35B /* __core */,
+				B8B963B31D6632300087C35B /* PPJViewController */,
 				B8B963B81D6632300087C35B /* smart_display */,
 			);
-			path = _controllers;
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		B8B9639D1D6632300087C35B /* dynamic_smart_display */ = {
@@ -3454,11 +3569,11 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		B8B963B31D6632300087C35B /* __core */ = {
+		B8B963B31D6632300087C35B /* PPJViewController */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = __core;
+			path = PPJViewController;
 			sourceTree = "<group>";
 		};
 		B8B963B81D6632300087C35B /* smart_display */ = {
@@ -3519,13 +3634,12 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
-		B8F6E35F1D66721300C60CFB /* _managers */ = {
+		B8F6E35F1D66721300C60CFB /* managers */ = {
 			isa = PBXGroup;
 			children = (
 				B8F6E3611D66727D00C60CFB /* network */,
-				7A1F3702BFE2B20E70CFEC5C /* __core */,
 			);
-			path = _managers;
+			path = managers;
 			sourceTree = "<group>";
 		};
 		B8F6E3611D66727D00C60CFB /* network */ = {
@@ -3547,7 +3661,16 @@
 			path = PPJEvent;
 			sourceTree = "<group>";
 		};
-		B8F6E36D1D667BF800C60CFB /* _helpers */ = {
+		B8F6E3671D6675E300C60CFB /* PPJManager */ = {
+			isa = PBXGroup;
+			children = (
+				B8F6E36A1D66761300C60CFB /* PPJManager.h */,
+				B8F6E36B1D66761300C60CFB /* PPJManager.m */,
+			);
+			path = PPJManager;
+			sourceTree = "<group>";
+		};
+		B8F6E36D1D667BF800C60CFB /* helpers */ = {
 			isa = PBXGroup;
 			children = (
 				B8F6E36E1D667BF800C60CFB /* Color */,
@@ -3557,7 +3680,7 @@
 				B8F6E3821D667C1700C60CFB /* PPJQueue.m */,
 				7A1F38D4671132D368A7ACC5 /* text */,
 			);
-			path = _helpers;
+			path = helpers;
 			sourceTree = "<group>";
 		};
 		B8F6E36E1D667BF800C60CFB /* Color */ = {
@@ -3663,6 +3786,7 @@
 			files = (
 				B8B962D11D6624100087C35B /* LaunchScreen.storyboard in Resources */,
 				7A1F37C61FFFBE5AD91129F8 /* ppj_test.json in Resources */,
+<<<<<<< HEAD
 				7A1F3A7A9709A04E5CC49D0C /* gmservices.json in Resources */,
 				7A1F3F18242509972C5EF651 /* gmclients.json in Resources */,
 				7A1F3252A89DA2E4DC71C9D8 /* gmviewmodels.json in Resources */,
@@ -4020,6 +4144,9 @@
 				7A1F3E72F4DD6F78509D3EDA /* Contents.json in Resources */,
 				7A1F330C5AA39DB9059EE5F2 /* gm_altarrow_offset_right@2x.png in Resources */,
 				7A1F3F427F80E37E04D2ED21 /* PPGMSuperWelcomeViewController.json in Resources */,
+=======
+				7A1F3CF983DEFC43D0C332C4 /* PPGMSuperWelcomeViewController.json in Resources */,
+>>>>>>> parent of 290661a... jj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4086,6 +4213,7 @@
 				B8B963911D66260A0087C35B /* PPJSwitchPack.m in Sources */,
 				B8B963D21D6632300087C35B /* PPJSDMultipleContentPageSelectorView.m in Sources */,
 				B8B963851D66260A0087C35B /* PPJTransitionDirector.m in Sources */,
+				B8F6E36C1D66761300C60CFB /* PPJManager.m in Sources */,
 				B8F6E3651D66733700C60CFB /* PPJEvent.m in Sources */,
 				B8B963D71D6632300087C35B /* PPJSDLoadCellDisplayObject.m in Sources */,
 				B8F6E37F1D667BF800C60CFB /* RACSignal+Object.m in Sources */,
@@ -4135,9 +4263,15 @@
 				7A1F3B343DCBF3D1DFA3AAFF /* PPJAppDelegate.m in Sources */,
 				7A1F3839663DA66FA337CFAC /* PPJApp.m in Sources */,
 				7A1F39B705969DB3A8C6950A /* PPJFunction.m in Sources */,
+<<<<<<< HEAD
+=======
+				7A1F335A70E5C7681B795B63 /* PPJScreenFabric.m in Sources */,
+				7A1F336F94F198FA8872EE09 /* PPJScreen.m in Sources */,
+>>>>>>> parent of 290661a... jj
 				7A1F3AADFAC4077C89D35E4F /* PPJView.m in Sources */,
 				7A1F31A1B3D9F21AC1B8F29E /* PPJClassesScope.m in Sources */,
 				7A1F386C7378B608C9CCAD2A /* PPJViewController.m in Sources */,
+<<<<<<< HEAD
 				7A1F340DD66FA04308DDCEE9 /* PPJViewModel.m in Sources */,
 				7A1F357725A8A2C4638B8403 /* PPJService.m in Sources */,
 				7A1F35F35BC5CBE8D04BE824 /* PPJRequestService.m in Sources */,
@@ -4177,6 +4311,9 @@
 				7A1F37CAB2BB57AEC305A0C7 /* PPKeyBoardedNavigationController.m in Sources */,
 				7A1F3D18C0E81FDFA3E2B2D6 /* PPGMAuthViewController.m in Sources */,
 				7A1F3A718FBEA380A597C423 /* PPGMAuthViewModel.m in Sources */,
+=======
+				7A1F3670CECADCD5FB168F1C /* PPJViewModel.m in Sources */,
+>>>>>>> parent of 290661a... jj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

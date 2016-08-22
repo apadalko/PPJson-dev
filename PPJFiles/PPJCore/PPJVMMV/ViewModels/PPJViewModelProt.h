@@ -20,7 +20,6 @@
 -(void)activateActionWithName:(NSString *)name andData:(id)data;
 -(void)activateAction:(PPJAction*)action;
 @property (nonatomic, retain) NSDictionary * actions;
-@property (nonatomic, retain) NSDictionary * services;
 
 #pragma mark - old
 

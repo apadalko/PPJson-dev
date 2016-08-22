@@ -3,12 +3,11 @@
 // Copyright (c) 2016 PlacePixel. All rights reserved.
 //
 
-#import "PPJObject.h"
+#import <Foundation/Foundation.h>
 
 
-@interface PPJClassesScope : PPJObject
+@interface PPJClassesScope : NSObject
 @property  (nonatomic, retain) NSDictionary * viewModels;
 @property  (nonatomic, retain) NSDictionary * services;
-@property  (nonatomic, retain) NSDictionary * clients;
 @property  (nonatomic, retain) NSDictionary * viewControllers;
 @end

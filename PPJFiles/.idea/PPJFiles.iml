@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LaunchScreen.storyboard" isTestSource="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gmviewmodels.json" isTestSource="false" />
@@ -539,6 +540,9 @@
 =======
       <sourceFolder url="file://$MODULE_DIR$/ViewController.h" isTestSource="false" />
 >>>>>>> parent of 290661a... jj
+=======
+      <sourceFolder url="file://$MODULE_DIR$/ViewController.h" isTestSource="false" />
+>>>>>>> parent of 290661a... jj
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJFoundation.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJExtensionConst.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJProperty.m" isTestSource="false" />
@@ -845,6 +849,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Result/Result/ResultType.swift" isTestSource="false" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Pods/Result/Result/Result.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Gabbermap/classes/UIFont+AppFonts.mm" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Gabbermap/classes/UIFont+AppFonts.h" isTestSource="false" />
@@ -903,6 +908,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/SignUp/PPGMSignUpViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/SignUp/PPGMSignUpViewController.h" isTestSource="false" />
 =======
+=======
+>>>>>>> parent of 290661a... jj
 =======
 >>>>>>> parent of 290661a... jj
       <sourceFolder url="file://$MODULE_DIR$/Info.plist" isTestSource="false" />
@@ -1100,6 +1107,9 @@
       <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/PPGMStartScreenViewModel.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ppj_test.json" isTestSource="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 290661a... jj
+=======
 >>>>>>> parent of 290661a... jj
 =======
 >>>>>>> parent of 290661a... jj

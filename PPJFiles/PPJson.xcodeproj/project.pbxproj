@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 <<<<<<< HEAD
+<<<<<<< HEAD
 		7A1F30080239C2A151062AF0 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F32E2D9E53F16BC59BD2A /* Contents.json */; };
 		7A1F3008E7E37532AA51D96A /* Pokebot_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F356A95A175D10AAA2F61 /* Pokebot_2@2x.png */; };
 		7A1F3020FF7B9070F398F4A9 /* gm_trim@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3949CD32ED200075D31C /* gm_trim@2x.png */; };
@@ -193,6 +194,11 @@
 		7A1F3054E20D4AADA518934B /* PPGridAnimationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3E02180FD6A0B59578A0 /* PPGridAnimationObject.m */; };
 		7A1F31057A824434DB4F30CF /* PPGMWelcomeChatBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F31026DFFA54988968387 /* PPGMWelcomeChatBubbleView.m */; };
 		7A1F31A1B3D9F21AC1B8F29E /* PPJClassesScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F36AA7687C0CA232C2B82 /* PPJClassesScope.m */; };
+=======
+		7A1F3054E20D4AADA518934B /* PPGridAnimationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3E02180FD6A0B59578A0 /* PPGridAnimationObject.m */; };
+		7A1F31057A824434DB4F30CF /* PPGMWelcomeChatBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F31026DFFA54988968387 /* PPGMWelcomeChatBubbleView.m */; };
+		7A1F31A1B3D9F21AC1B8F29E /* PPJClassesScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F36AA7687C0CA232C2B82 /* PPJClassesScope.m */; };
+>>>>>>> parent of 290661a... jj
 		7A1F335A70E5C7681B795B63 /* PPJScreenFabric.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3BA6E609688E48EA0EAD /* PPJScreenFabric.m */; };
 		7A1F336F94F198FA8872EE09 /* PPJScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3A6C43DD49C2E87E921D /* PPJScreen.m */; };
 		7A1F33B69A329869022C65A0 /* PPGMSuperWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F31DD2402AC6F764C32EA /* PPGMSuperWelcomeViewController.m */; };
@@ -204,6 +210,9 @@
 		7A1F36C302F2AD52D9ECAEE9 /* PPGridCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F35543368822D2FFF6D41 /* PPGridCellObject.m */; };
 		7A1F36CAC6686412A4C3464E /* contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3FA649A75AA8243FB1DF /* contents.json */; };
 		7A1F36D1EFF35F75DBAD80E6 /* PPGridCellPersonaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F325EBEAC13A7C57F2993 /* PPGridCellPersonaObject.m */; };
+<<<<<<< HEAD
+>>>>>>> parent of 290661a... jj
+=======
 >>>>>>> parent of 290661a... jj
 		7A1F37C61FFFBE5AD91129F8 /* ppj_test.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3BFA9F0ED56EDCD1C687 /* ppj_test.json */; };
 		7A1F37CAB2BB57AEC305A0C7 /* PPKeyBoardedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3B0D20247D28EAB84440 /* PPKeyBoardedNavigationController.m */; };
@@ -246,6 +255,7 @@
 		7A1F38B938A6152B0DF0A24C /* gm_share_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F33A43CA987449AC7032C /* gm_share_grey@2x.png */; };
 		7A1F38C7B697334B0F6E3D86 /* gm_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F36906F266CE7C8EBAB38 /* gm_error@2x.png */; };
 		7A1F38D9995D4CFAAA6C3B95 /* PPJObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3C5740FFC195CD3106EC /* PPJObject.m */; };
+<<<<<<< HEAD
 <<<<<<< HEAD
 		7A1F38E493D94EC835F40E12 /* lb_zombie@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F33935101D306C3D76AD5 /* lb_zombie@2x.png */; };
 		7A1F38E55B947C42C9CD1D9D /* gm_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3A408858653A5432CACC /* gm_top@2x.png */; };
@@ -436,6 +446,14 @@
 		7A1F3AADFAC4077C89D35E4F /* PPJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3182455177080430DD3A /* PPJView.m */; };
 		7A1F3ACA74ACAC0350BFE118 /* PPGridCellChatBubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F380312A638D2063ACC2A /* PPGridCellChatBubleView.m */; };
 		7A1F3B343DCBF3D1DFA3AAFF /* PPJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F397FEAEAAA85B53C9BF3 /* PPJAppDelegate.m */; };
+=======
+		7A1F392EBFD04F68D25DCB9B /* PPGMWelcomeScreenViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3429F6E91C140B42B3DB /* PPGMWelcomeScreenViewModel.m */; };
+		7A1F39B705969DB3A8C6950A /* PPJFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3C5486C42680700A6C73 /* PPJFunction.m */; };
+		7A1F3A645EEA719B839F6D08 /* PPGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F38506A20DDD083067D43 /* PPGridView.m */; };
+		7A1F3AADFAC4077C89D35E4F /* PPJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3182455177080430DD3A /* PPJView.m */; };
+		7A1F3ACA74ACAC0350BFE118 /* PPGridCellChatBubleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F380312A638D2063ACC2A /* PPGridCellChatBubleView.m */; };
+		7A1F3B343DCBF3D1DFA3AAFF /* PPJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F397FEAEAAA85B53C9BF3 /* PPJAppDelegate.m */; };
+>>>>>>> parent of 290661a... jj
 		7A1F3C1EA54C23601FFE502E /* contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F3F96D0CD816BE30B7FDD /* contents.json */; };
 		7A1F3CF983DEFC43D0C332C4 /* PPGMSuperWelcomeViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A1F36E5B019FB3FD5E4A1E5 /* PPGMSuperWelcomeViewController.json */; };
 		7A1F3D8E8B9FF4BB951CBB9E /* PPGridCellPersonaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F3BB6AD9C0E16AEAB486E /* PPGridCellPersonaView.m */; };
@@ -543,6 +561,7 @@
 		7A1F317DED32A7579539C8CA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F3182455177080430DD3A /* PPJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJView.m; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		7A1F31BB266A34FA88F73E1B /* gm_emptylocationsearch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_emptylocationsearch@2x.png"; sourceTree = "<group>"; };
 		7A1F31C018C2B21B791D1FEC /* gm_es_bookmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_es_bookmark@2x.png"; sourceTree = "<group>"; };
 		7A1F31CC03A667D575802FF2 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
@@ -606,6 +625,8 @@
 		7A1F33D57364F81A0EA3EFF3 /* gm_NEWprofile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_NEWprofile@2x.png"; sourceTree = "<group>"; };
 		7A1F33D6EC697C342E2E13F5 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 =======
+=======
+>>>>>>> parent of 290661a... jj
 		7A1F31DD2402AC6F764C32EA /* PPGMSuperWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMSuperWelcomeViewController.m; sourceTree = "<group>"; };
 		7A1F322FC1B72C38361843D2 /* PPGridCellUserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellUserView.m; sourceTree = "<group>"; };
 		7A1F323728EE6ABFE4B6A18A /* PPGridBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridBackgroundView.m; sourceTree = "<group>"; };
@@ -614,11 +635,15 @@
 		7A1F331B0859E7968F38151F /* PPJFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJFunction.h; sourceTree = "<group>"; };
 		7A1F331F8D086A7F5485F8F8 /* PPGridAnimationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridAnimationObject.h; sourceTree = "<group>"; };
 		7A1F332F6B5E512286AC212B /* PPGridCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGridCellObject.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
+>>>>>>> parent of 290661a... jj
+=======
 >>>>>>> parent of 290661a... jj
 		7A1F33F9529BF56FD44C9D3F /* PPJEventObserverProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJEventObserverProt.h; sourceTree = "<group>"; };
 		7A1F34023DBAC7994952AA7F /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F3405BEC6329CD0B98E82 /* PPGMWelcomeChatTextBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPGMWelcomeChatTextBubbleView.h; sourceTree = "<group>"; };
 		7A1F340ADFC26D1D9EA3B4A0 /* PPJClassesScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJClassesScope.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
 <<<<<<< HEAD
 		7A1F3428830E7A64D4CC00AA /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		7A1F342F973672F1C22D5240 /* gm_username@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_username@2x.png"; sourceTree = "<group>"; };
@@ -686,10 +711,15 @@
 		7A1F36906F266CE7C8EBAB38 /* gm_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gm_error@2x.png"; sourceTree = "<group>"; };
 		7A1F36A2032EFEFAB327AB1E /* PPJButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPJButton.h; sourceTree = "<group>"; };
 =======
+=======
+>>>>>>> parent of 290661a... jj
 		7A1F3429F6E91C140B42B3DB /* PPGMWelcomeScreenViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMWelcomeScreenViewModel.m; sourceTree = "<group>"; };
 		7A1F347B2D564121CAF1D212 /* PPKeyBoardedViewControllerProt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPKeyBoardedViewControllerProt.h; sourceTree = "<group>"; };
 		7A1F35543368822D2FFF6D41 /* PPGridCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellObject.m; sourceTree = "<group>"; };
 		7A1F3597B30AAAA3005628F9 /* PPGMChatBubbleAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGMChatBubbleAuthView.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+>>>>>>> parent of 290661a... jj
+=======
 >>>>>>> parent of 290661a... jj
 		7A1F36AA7687C0CA232C2B82 /* PPJClassesScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPJClassesScope.m; sourceTree = "<group>"; };
 		7A1F36AE78E4BFC7E1B2DBA8 /* PPGridCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPGridCellObject.m; sourceTree = "<group>"; };
@@ -2592,8 +2622,13 @@
 		7A1F3BD75FDB5D9295D92FEE /* pp_big_gray_ava.imageset */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				7A1F370A7E5259658C8D6BD2 /* Contents.json */,
 				7A1F3C1328223B4194185C1C /* pp_big_gray_ava@2x.png */,
+=======
+				7A1F3BA6E609688E48EA0EAD /* PPJScreenFabric.m */,
+				7A1F3C0ED991F5FE327CDF25 /* PPJScreenFabric.h */,
+>>>>>>> parent of 290661a... jj
 			);
 			path = pp_big_gray_ava.imageset;
 			sourceTree = "<group>";
@@ -2616,6 +2651,7 @@
 			path = gm_emptymegablock.imageset;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F3C07F94F06AC1E824A9D /* yay_facebook_small.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -2635,6 +2671,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F3C440D0EACF60A115711 /* gm_flashtoggled.imageset */ = {
+=======
+		7A1F331474A03B7CB52011A5 /* PPJFunction */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F3E22A4D681E62620F4E2 /* Contents.json */,
@@ -2646,8 +2685,14 @@
 		7A1F3C4FDB26ADFC6BC6EA5A /* ico_back.imageset */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				7A1F3D472BBEEB8AA351E741 /* Contents.json */,
 				7A1F3748A783B4E5520BEE4B /* ico_back@2x.png */,
+=======
+				7A1F3C5740FFC195CD3106EC /* PPJObject.m */,
+				7A1F3E47C7DE44E3E5385D68 /* PPJObject.h */,
+				7A1F33F9529BF56FD44C9D3F /* PPJEventObserverProt.h */,
+>>>>>>> parent of 290661a... jj
 			);
 			path = ico_back.imageset;
 			sourceTree = "<group>";
@@ -2661,6 +2706,7 @@
 			path = gm_locatearrow.imageset;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F3C66646FC8034E7B249B /* gm_user_small.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -2671,6 +2717,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F3CA666797CB47C304812 /* dog_body_tiny.imageset */ = {
+=======
+		7A1F36D1308803B199AAD664 /* PPGMPersonaGridView */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F3CF4B34A89DC5BB0320D /* Contents.json */,
@@ -2679,6 +2728,7 @@
 			path = dog_body_tiny.imageset;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F3CA7F5E3C52DF29EAD5B /* ava_splash.imageset */ = {
 			isa = PBXGroup;
 			children = (
@@ -2698,6 +2748,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F3CDF682AE9077EAE20AA /* gm_invite_contacts.imageset */ = {
+=======
+		7A1F3A948C5DA47DF1966B6A /* services */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F3B1A7501D070209B79DE /* Contents.json */,
@@ -2750,6 +2803,7 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		7A1F3D39AD91A7A2BC11245E /* __core */ = {
 			isa = PBXGroup;
 			children = (
@@ -2762,6 +2816,9 @@
 			sourceTree = "<group>";
 		};
 		7A1F3D49A4138294CD1BB74C /* gm_play.imageset */ = {
+=======
+		7A1F3D6D04CC12B541359D9A /* personaCell_view */ = {
+>>>>>>> parent of 290661a... jj
 			isa = PBXGroup;
 			children = (
 				7A1F31EAF78D4548FAB2B87D /* Contents.json */,
@@ -3279,11 +3336,14 @@
 				3AA451C180910AFF4C642044 /* Frameworks */,
 				7A1F3BFA9F0ED56EDCD1C687 /* ppj_test.json */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				7A1F3D5BBA2EB126CC5670C8 /* gmservices.json */,
 				7A1F35B2818EDECF66E8B41B /* gmclients.json */,
 				7A1F3A82AEA7EAB9A7BA01AE /* gmviewmodels.json */,
 				7A1F360564BAABA9D99F7EB2 /* Resourses */,
 				7A1F3300598C8FD4AACC3E75 /* Info.plist */,
+=======
+>>>>>>> parent of 290661a... jj
 =======
 >>>>>>> parent of 290661a... jj
 			);
@@ -3787,6 +3847,7 @@
 				B8B962D11D6624100087C35B /* LaunchScreen.storyboard in Resources */,
 				7A1F37C61FFFBE5AD91129F8 /* ppj_test.json in Resources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				7A1F3A7A9709A04E5CC49D0C /* gmservices.json in Resources */,
 				7A1F3F18242509972C5EF651 /* gmclients.json in Resources */,
 				7A1F3252A89DA2E4DC71C9D8 /* gmviewmodels.json in Resources */,
@@ -4147,6 +4208,9 @@
 =======
 				7A1F3CF983DEFC43D0C332C4 /* PPGMSuperWelcomeViewController.json in Resources */,
 >>>>>>> parent of 290661a... jj
+=======
+				7A1F3CF983DEFC43D0C332C4 /* PPGMSuperWelcomeViewController.json in Resources */,
+>>>>>>> parent of 290661a... jj
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4264,13 +4328,17 @@
 				7A1F3839663DA66FA337CFAC /* PPJApp.m in Sources */,
 				7A1F39B705969DB3A8C6950A /* PPJFunction.m in Sources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 290661a... jj
 				7A1F335A70E5C7681B795B63 /* PPJScreenFabric.m in Sources */,
 				7A1F336F94F198FA8872EE09 /* PPJScreen.m in Sources */,
 >>>>>>> parent of 290661a... jj
 				7A1F3AADFAC4077C89D35E4F /* PPJView.m in Sources */,
 				7A1F31A1B3D9F21AC1B8F29E /* PPJClassesScope.m in Sources */,
 				7A1F386C7378B608C9CCAD2A /* PPJViewController.m in Sources */,
+<<<<<<< HEAD
 <<<<<<< HEAD
 				7A1F340DD66FA04308DDCEE9 /* PPJViewModel.m in Sources */,
 				7A1F357725A8A2C4638B8403 /* PPJService.m in Sources */,
@@ -4311,6 +4379,9 @@
 				7A1F37CAB2BB57AEC305A0C7 /* PPKeyBoardedNavigationController.m in Sources */,
 				7A1F3D18C0E81FDFA3E2B2D6 /* PPGMAuthViewController.m in Sources */,
 				7A1F3A718FBEA380A597C423 /* PPGMAuthViewModel.m in Sources */,
+=======
+				7A1F3670CECADCD5FB168F1C /* PPJViewModel.m in Sources */,
+>>>>>>> parent of 290661a... jj
 =======
 				7A1F3670CECADCD5FB168F1C /* PPJViewModel.m in Sources */,
 >>>>>>> parent of 290661a... jj

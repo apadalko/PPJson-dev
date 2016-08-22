@@ -11,7 +11,8 @@
 #import "PPJNavigationController.h"
 #import "PPJViewControllerNavBarConfigurationProt.h"
 #import "UIViewController+NavBarConfigurator.h"
-
+#import "PPJTextHelper.h"
+#import "UIColor+HEX.h"
 @interface PPJViewController : UIViewController<PPJViewControllerProt,PPJViewControllerNavBarConfigurationProt>
 
 

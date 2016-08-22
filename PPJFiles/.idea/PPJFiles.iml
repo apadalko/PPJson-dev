@@ -9,129 +9,15 @@
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/network/classes/Reachability.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/network/classes/Reachability.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/network/contents.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/network/PPJNetworkManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/network/PPJNetworkManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/__core/PPJManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/_managers/__core/PPJManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJScreen.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJButton.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJButton.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJScreen.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJRequestService.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJService.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJRequestService.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJService.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicDirectorViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicDirectorViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDDirectorViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDDirectorViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJSDMultipleContentViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/NSObject+DynamicProperties.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJSDMultipleContentViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJMCDataHolder.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJMCDataHolder.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/NSObject+DynamicProperties.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentPageProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageSelectorView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageSelectorView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageCell.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageCell.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentPageSelectorProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJClassesScope.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJClassesScope.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJApp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/UIViewController+PPJViewControllerProt.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJTabBarController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/UIViewController+PPJViewControllerProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJTabBarController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJViewControllerProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJNavigationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJNavigationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurationsManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfiguratorProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/General/PPJViewControllerMainConfigurationProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurationsManager.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJOptionListDefaultHandler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJOptionListDefaultHandler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurator.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/navigation bar/UIViewController+NavBarConfigurator.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/navigation bar/UIViewController+NavBarConfigurator.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/navigation bar/PPJViewControllerNavBarConfigurationProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurator.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigatior.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigationAction.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigatior.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJSwitchPack.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigationAction.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJSwitchPack.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewModelProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAppDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJTransitionDirector/PPJTransitionDirector.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJTransitionDirector/PPJTransitionDirector.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAppDelegate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJClientsFabric.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJClientsFabric.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJFabricPool.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJDefaultFabric.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJScreenFabric.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJFabricPoolProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJFabricPool.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJDefaultFabric.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJScreenFabric.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJServicesFabric.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJServicesFabric.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/PPJQueue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+Object.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+SANavigationAction.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+Object.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACCommand+MethodRedirection.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACCommand+MethodRedirection.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+SANavigationAction.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/PPJQueue.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/Color/UIColor+HEX.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/Color/UIColor+HEX.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/OptiosListObj/PPJOptionsListObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/OptiosListObj/PPJOptionListHandler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/OptiosListObj/PPJOptionsListObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDErrorView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDEmptyView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDStatesObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDEmptyView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDErrorView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDLoadingView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDStatesObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDLoadingView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJDataRequest.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJEventObserverProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJDataRequest.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFunction/PPJFunction.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFunction/PPJFunction.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJEvent/PPJEvent.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJEvent/PPJEvent.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_clients/__core/PPJRequestClient.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_clients/__core/PPJRequestClient.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJWaiter.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJWaiter.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAction/PPJAction.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAction/PPJAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/UI/PPJViewProt.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/PPJSDController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/PPJDisplayViewProt.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/PPJSDView.h" isTestSource="false" />
@@ -160,82 +46,509 @@
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/PPJSDController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/PPJSDDirectorProtocol.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDMappingObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDObjectProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDMappingObjectRequest.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDMappingObjectRequest.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDObjectsContainer.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDMappingObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDObjectsContainer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDMappingObjectRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/Objects/PPJSDObjectProtocol.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJSmartDisplay/PPJSDView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDDirectorViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/smart_display/PPJSDDirectorViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicDirectorViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicDirectorViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/dynamic_smart_display/PPJSDDynamicViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJSDMultipleContentViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/NSObject+DynamicProperties.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJSDMultipleContentViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJMCDataHolder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/PPJMCDataHolder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/NSObject+DynamicProperties.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageSelectorView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageSelectorView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageCell.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/views/PPJSDMultipleContentPageCell.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentPageSelectorProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentPageProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_controllers/multiple_smart_display/vc/PPJSDMultipleContentViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJClassesScope.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJClassesScope.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJApp.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJApp/PPJApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/UIViewController+PPJViewControllerProt.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJTabBarController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/UIViewController+PPJViewControllerProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJViewControllerProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJNavigationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJNavigationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ViewControllers/PPJTabBarController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfiguratorProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurationsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/General/PPJViewControllerMainConfigurationProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJOptionListDefaultHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJOptionListDefaultHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurationsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/PPJViewControllerConfigurator.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/navigation bar/UIViewController+NavBarConfigurator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/navigation bar/UIViewController+NavBarConfigurator.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/ConfigurationManager/navigation bar/PPJViewControllerNavBarConfigurationProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigatior.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigationAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigatior.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJSwitchPack.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJNavigationAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/NavigationManager/PPJSwitchPack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewModelProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJVMMV/PPJViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJLoadCell/PPJSDLoadCellDisplayObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJWaiter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJServicesFabric.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJClientsFabric.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJServicesFabric.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJFabricPool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJDefaultFabric.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJScreenFabric.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJFabricPoolProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJFabricPool.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJDefaultFabric.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/__/PPJScreenFabric.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFabrics/PPJClientsFabric.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/text/PPJTextHelper.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/text/PPJTextHelper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/text/NSString+Localized.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/text/NSString+Localized.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/PPJQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/Color/UIColor+HEX.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/Color/UIColor+HEX.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+Object.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+SANavigationAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+Object.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACCommand+MethodRedirection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACCommand+MethodRedirection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/RAC_ext/RACSignal+SANavigationAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/PPJQueue.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/OptiosListObj/PPJOptionsListObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/OptiosListObj/PPJOptionListHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_helpers/OptiosListObj/PPJOptionsListObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDEmptyView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDStatesObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDErrorView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDErrorView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDLoadingView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDEmptyView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDLoadingView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJStatesObject/PPJSDStatesObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJEventObserverProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJDataRequest.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJDataRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJObject/PPJObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJTransitionDirector/PPJTransitionDirector.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJTransitionDirector/PPJTransitionDirector.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJEvent/PPJEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJEvent/PPJEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_clients/__core/PPJRequestClient.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_clients/__core/PPJRequestClient.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJWaiter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJRequestService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJService.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJRequestService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/_services/__core/PPJService.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAction/PPJAction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJAction/PPJAction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFunction/PPJFunction.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PPJCore/PPJFunction/PPJFunction.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ppj_test.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gmclients.json" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gmservices.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/ppj_test.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/KeyBoardedNav/PPKeyBoardedNavigationController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/KeyBoardedNav/PPKeyBoardedViewControllerProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/KeyBoardedNav/PPKeyBoardedNavigationController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/PPGMStartScreenViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/contents.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/PPGMStartScreenViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/PPGMStartScreenViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMAuthViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMWelcomeChatBubbleView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/PPGridCellChatBubleView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/bkgr/PPGridBackgroundView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/bkgr/PPGridAnimationObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/bkgr/PPGridBackgroundView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/bkgr/PPGridAnimationObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/core/PPGridCellView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/core/PPGridView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/core/PPGridCellObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/core/PPGridCellObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/core/PPGridCellView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/core/PPGridView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/PPGridCellChatBubleView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaObject.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaObject.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMSuperWelcomeViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMSuperWelcomeViewController.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPUserProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMWelcomeChatTextBubbleView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMChatBubbleAuthView.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMWelcomeChatTextBubbleView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMChatBubbleAuthView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPPersonaObjProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPObjectProt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMSuperWelcomeViewController.json" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMWelcomeChatBubbleView.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMWelcomeScreenViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMAuthViewModel.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/Welcome/PPGMWelcomeScreenViewModel.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/PPJCustomFiles/controllers/PPGMStartScreenViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/owl_body.imageset/owl_body@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/owl_body.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_usermask_white.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_usermask_white.imageset/gm_usermask_white@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/New Folder/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_winking.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_winking.imageset/lb_winking@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_report_flag.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_report_flag.imageset/gm_report_flag@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_trending.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_trending.imageset/gm_trending@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_supertiny.imageset/gm_star_supertiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_supertiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_shocked.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_shocked.imageset/lb_shocked@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/fullname_icon_gray.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/fullname_icon_gray.imageset/fullname_icon_gray@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_profile_bell_small.imageset/gm_profile_bell_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_profile_bell_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_onboarding_x.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_onboarding_x.imageset/gm_onboarding_x@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lock_icon_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lock_icon_small.imageset/lock_icon_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_altarrow_offset.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_altarrow_offset.imageset/gm_altarrow_offset@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/ico_back.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/ico_back.imageset/ico_back@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_tiny.imageset/gm_star_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_trim.imageset/gm_trim@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_trim.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_supersad_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_supersad_grey.imageset/lb_tiny_supersad_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bigcheck.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bigcheck.imageset/gm_bigcheck@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWsearch.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWsearch.imageset/gm_NEWsearch@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_upvote.imageset/gm_upvote@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_upvote.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_notificationbell.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_notificationbell.imageset/gm_es_notificationbell@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptytagsearch.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptytagsearch.imageset/gm_emptytagsearch@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWhistory.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWhistory.imageset/gm_NEWhistory@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_white.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_white.imageset/gm_star_white@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_xlarge.imageset/gm_user_xlarge@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_xlarge.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_top.imageset/gm_top@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_top.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_history.imageset/gm_es_history@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_history.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_crying.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_crying.imageset/lb_crying@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_share_grey.imageset/gm_share_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_share_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_mute.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_mute.imageset/gm_mute@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_following.imageset/gm_es_following@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_following.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptymegablock.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptymegablock.imageset/gm_emptymegablock@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flashtoggled.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flashtoggled.imageset/gm_flashtoggled@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_angry.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_angry.imageset/lb_angry@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/default_message_bubble.imageset/default_message_bubble@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/default_message_bubble.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_superhappy.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_superhappy.imageset/lb_tiny_superhappy@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_speechless.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_speechless.imageset/lb_speechless@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_banner_smiley.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_banner_smiley.imageset/gm_banner_smiley@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_frazzled.imageset/lb_frazzled@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_frazzled.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/koala_body.imageset/koala_body@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/koala_body.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_new.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_new.imageset/gm_new@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_angry_grey.imageset/lb_tiny_angry_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_angry_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_speaker.imageset/gm_speaker@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_speaker.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/email_icon_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/email_icon_small.imageset/email_icon_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_onboarding_check.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_onboarding_check.imageset/gm_onboarding_check@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flash.imageset/gm_flash@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flash.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cancelsearch_clear.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cancelsearch_clear.imageset/gm_cancelsearch_clear@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_yellow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_yellow.imageset/gm_star_yellow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cameraflip.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cameraflip.imageset/gm_cameraflip@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/whit_crcleCropper.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/whit_crcleCropper.imageset/whit_crcleCropper@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_listsearch.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_listsearch.imageset/gm_listsearch@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_giantsearch.imageset/gm_giantsearch@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_giantsearch.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_1.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_1.imageset/Pokebot_1@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_searchbubble.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_searchbubble.imageset/gm_searchbubble@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/mapScr.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/mapScr.imageset/mapScr@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_picker.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_picker.imageset/gm_picker@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_Reply.imageset/gm_Reply@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_Reply.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/fullname_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/fullname_icon.imageset/fullname_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_small.imageset/gm_user_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_asleep.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_asleep.imageset/lb_asleep@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_locatearrow_small.imageset/gm_locatearrow_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_locatearrow_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_altarrow_offset_right.imageset/gm_altarrow_offset_right@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_altarrow_offset_right.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bannershadow_yellow.imageset/gm_bannershadow_yellow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bannershadow_yellow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_inlove.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_inlove.imageset/lb_inlove@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_cute.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_cute.imageset/lb_tiny_cute@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_waaah.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_waaah.imageset/lb_waaah@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_happy.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_happy.imageset/lb_tiny_happy@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_bookmark.imageset/gm_es_bookmark@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_es_bookmark.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/all_gender_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/all_gender_icon.imageset/all_gender_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/username_small_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/username_small_icon.imageset/username_small_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_sad.imageset/lb_tiny_sad@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_sad.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_globe.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_globe.imageset/gm_globe@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_globe.imageset/gm_globe@3x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_supersad.imageset/lb_tiny_supersad@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_supersad.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_sharetwitter.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_sharetwitter.imageset/gm_sharetwitter@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_locatearrow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_locatearrow.imageset/gm_locatearrow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_following.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_following.imageset/gm_following@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_upvote_active.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_upvote_active.imageset/pp_upvote_active@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_embarrassed.imageset/lb_embarrassed@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_embarrassed.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_home.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_home.imageset/gm_home@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_settings.imageset/gm_settings@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_settings.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_4.imageset/Pokebot_4@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_4.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_newpost.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_newpost.imageset/gm_newpost@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_subscribe_star.imageset/gm_subscribe_star@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_subscribe_star.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_dead.imageset/lb_dead@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_dead.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_map_arrow_yellow.imageset/gm_map_arrow_yellow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_map_arrow_yellow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/if_contacts.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/if_contacts.imageset/if_contacts@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_dumb_grey.imageset/lb_tiny_dumb_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_dumb_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/locateMe_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/locateMe_icon.imageset/locateMe_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_play.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_play.imageset/gm_play@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_zoom_filled.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_zoom_filled.imageset/gm_zoom_filled@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_hashtag.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_hashtag.imageset/gm_hashtag@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptyactivity.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptyactivity.imageset/gm_emptyactivity@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flashauto.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flashauto.imageset/gm_flashauto@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Brand Assets.launchimage/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cred_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cred_tiny.imageset/gm_cred_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_yellow_huge.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_yellow_huge.imageset/gm_star_yellow_huge@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/yay_star_bar.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/yay_star_bar.imageset/yay_star_bar@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/dog_body.imageset/dog_body@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/dog_body.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/clock_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/clock_icon.imageset/clock_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_username.imageset/gm_username@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_username.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_banner_bell.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_banner_bell.imageset/gm_banner_bell@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_2.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_2.imageset/Pokebot_2@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flag_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_flag_grey.imageset/gm_flag_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/locateMe_icon_middle.imageset/locateMe_icon_middle@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/locateMe_icon_middle.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bookmark_bar.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bookmark_bar.imageset/gm_bookmark_bar@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/male_gender_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/male_gender_icon.imageset/male_gender_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_sharefb_empty.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_sharefb_empty.imageset/gm_sharefb_empty@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/gm_60@3x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/gm_40@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/gm_29@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/gm_40@3x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/gm_60@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/AppIcon.appiconset/gm_29@3x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/dog_body_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/dog_body_tiny.imageset/dog_body_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_facebook.imageset/gm_invite_facebook@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_facebook.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_gabbermap.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_gabbermap.imageset/gm_invite_gabbermap@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_fbmessenger.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_fbmessenger.imageset/gm_invite_fbmessenger@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_whatsapptoggled.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_whatsapptoggled.imageset/gm_invite_whatsapptoggled@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_whatsapp.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_whatsapp.imageset/gm_invite_whatsapp@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_contacts.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/1_invite/gm_invite_contacts.imageset/gm_invite_contacts@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/p_c_bg.imageset/p_c_bg@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/p_c_bg.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWevent_large.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWevent_large.imageset/gm_NEWevent_large@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWprofile.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWprofile.imageset/gm_NEWprofile@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWevent.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_NEWevent.imageset/gm_NEWevent@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/owl_body_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/owl_body_tiny.imageset/owl_body_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_arrow_right.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_arrow_right.imageset/pp_arrow_right@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptysubscriptions.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptysubscriptions.imageset/gm_emptysubscriptions@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_downvote_active.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_downvote_active.imageset/pp_downvote_active@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/hamster_body.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/hamster_body.imageset/hamster_body@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_blue.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_star_blue.imageset/gm_star_blue@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_chatbubblemask_large.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_chatbubblemask_large.imageset/gm_chatbubblemask_large@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_banner_location.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_banner_location.imageset/gm_banner_location@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bookmark.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_bookmark.imageset/gm_bookmark@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_usermask_blue.imageset/gm_usermask_blue@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_usermask_blue.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_intromap.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_intromap.imageset/gm_intromap@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_downvote.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_downvote.imageset/gm_downvote@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/racoon_body.imageset/racoon_body@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/racoon_body.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_usermask_grey.imageset/gm_usermask_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_usermask_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_listarrow.imageset/gm_listarrow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_listarrow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_sad_grey.imageset/lb_tiny_sad_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_sad_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/ava_splash.imageset/ava_splash@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/ava_splash.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_follow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_follow.imageset/gm_follow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_textbubble.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_textbubble.imageset/gm_textbubble@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_zombie.imageset/lb_zombie@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_zombie.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_medium.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_medium.imageset/gm_user_medium@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_large.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_large.imageset/gm_user_large@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_map_arrow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_map_arrow.imageset/gm_map_arrow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_profile_list.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_profile_list.imageset/gm_profile_list@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_ellipsis.imageset/gm_ellipsis@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_ellipsis.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_inlove_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_inlove_grey.imageset/lb_tiny_inlove_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/banner_arrow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/banner_arrow.imageset/banner_arrow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_3.imageset/Pokebot_3@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/Pokebot_3.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_xlarge_green.imageset/gm_user_xlarge_green@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_user_xlarge_green.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/bio_icon.imageset/bio_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/bio_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_arrow_down.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_arrow_down.imageset/pp_arrow_down@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_zoom.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_zoom.imageset/gm_zoom@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_altarrow_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_altarrow_small.imageset/gm_altarrow_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/racoon_body_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/racoon_body_tiny.imageset/racoon_body_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_speechless_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_speechless_grey.imageset/lb_tiny_speechless_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_error.imageset/gm_error@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_error.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_dumb.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_dumb.imageset/lb_dumb@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cancel.imageset/gm_cancel@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_cancel.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_horny.imageset/lb_horny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_horny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/yay_facebook_small.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/yay_facebook_small.imageset/yay_facebook_small@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_big_gray_ava.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/pp_big_gray_ava.imageset/pp_big_gray_ava@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/fullScreen_banner_bg.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/fullScreen_banner_bg.imageset/fullScreen_banner_bg@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_camerafliptoggled.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_camerafliptoggled.imageset/gm_camerafliptoggled@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/hamster_body_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/hamster_body_tiny.imageset/hamster_body_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/femal_gender_icon.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/femal_gender_icon.imageset/femal_gender_icon@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/settings_arrow.imageset/settings_arrow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/settings_arrow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_camera.imageset/gm_camera@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_camera.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gray_crcleCropper.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gray_crcleCropper.imageset/gray_crcleCropper@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_rightArrow.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_rightArrow.imageset/gm_rightArrow@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/koala_body_tiny.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/koala_body_tiny.imageset/koala_body_tiny@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptylocationsearch.imageset/gm_emptylocationsearch@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/gm_emptylocationsearch.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_frazzled_grey.imageset/Contents.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Images.xcassets/lb_tiny_frazzled_grey.imageset/lb_tiny_frazzled_grey@2x.png" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Fonts/MuseoSansRounded-700.otf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Fonts/MuseoSansRounded-1000.otf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Fonts/MuseoSansRounded-500.otf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Fonts/MuseoSansRounded-300.otf" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Resourses/Fonts/MuseoSansRounded-900.otf" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJFoundation.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJExtensionConst.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJProperty.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJProperty.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyType.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJClass.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJProperty.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJProperty.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJCoding.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSString+MJExtension.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyType.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyKey.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSString+MJExtension.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyKey.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJClass.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJFoundation.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyType.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyKey.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJCoding.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJExtensionConst.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJKeyValue.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJClass.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJPropertyType.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/MJExtension.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJKeyValue.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/MJExtension/MJExtension/NSObject+MJCoding.m" isTestSource="false" />
@@ -244,31 +557,31 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSFileHandle+RACSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACLifting.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSUserDefaults+RACSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSFileHandle+RACSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSequenceAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIRefreshControl+RACCommandSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIDatePicker+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEvent.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACKVOWrapper.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEvent.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBlockTrampoline.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACKVOWrapper.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSURLConnection+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBlockTrampoline.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDescription.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIAlertView+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextView+RACSignalSupport.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupportPrivate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIAlertView+RACSignalSupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextView+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupportPrivate.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewHeaderFooterView+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACErrorSignal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISegmentedControl+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewHeaderFooterView+RACSignalSupport.h" isTestSource="false" />
@@ -276,29 +589,29 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection+Private.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISegmentedControl+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDisposable.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIDatePicker+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDisposable.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIDatePicker+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSIndexSet+RACSequenceAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSIndexSet+RACSequenceAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACGroupedSignal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnit.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal+Operations.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACGroupedSignal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSequenceAdditions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnit.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSerialDisposable.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIStepper+RACSignalSupport.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIBarButtonItem+RACCommandSupport.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACArraySequence.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCompoundDisposableProvider.d" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScopedDisposable.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptionScheduler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScopedDisposable.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDeallocating.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBehaviorSubject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACDeallocating.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptionScheduler.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/ReactiveCocoa-Bridging-Header.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACKeyPathUtilities.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISlider+RACSignalSupport.m" isTestSource="false" />
@@ -311,14 +624,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSData+RACSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReturnSignal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSInvocation+RACTypeParsing.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/MKAnnotationView+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSData+RACSupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler+Private.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupportPrivate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSSet+RACSequenceAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOProxy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIGestureRecognizer+RACSignalSupport.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIImagePickerController+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACChannel.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOProxy.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextField+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIGestureRecognizer+RACSignalSupport.h" isTestSource="false" />
@@ -334,32 +645,32 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTestScheduler.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTuple.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReplaySubject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReplaySubject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSSet+RACSequenceAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACValueTransformer.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewHeaderFooterView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/MKAnnotationView+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACReplaySubject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySignal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTupleSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIButton+RACCommandSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACValueTransformer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler+Subclass.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTupleSequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIControl+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicPropertySuperclass.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnit.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal+Operations.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDelegateProxy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSURLConnection+RACSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISwitch+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTScope.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/metamacros.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTRuntimeExtensions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTRuntimeExtensions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTKeyPathCoding.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTRuntimeExtensions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/extobjc/EXTRuntimeExtensions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UISwitch+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITextView+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACSelectorSignal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSDictionary+RACSequenceAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOTrampoline.h" isTestSource="false" />
@@ -369,51 +680,53 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalSequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIActionSheet+RACSignalSupport.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDelegateProxy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler+Subclass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTupleSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIActionSheet+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACChannel.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnarySequence.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStringSequence.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACChannel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACUnarySequence.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACImmediateScheduler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACMulticastConnection.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSOrderedSet+RACSequenceAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACImmediateScheduler.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACTargetQueueScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIImagePickerController+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSOrderedSet+RACSequenceAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSequenceAdditions.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/MKAnnotationView+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSEnumerator+RACSequenceAdditions.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptingAssignmentTrampoline.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal+Operations.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScheduler+Subclass.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACArraySequence.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSArray+RACSequenceAdditions.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSEnumerator+RACSequenceAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACArraySequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewCell+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSArray+RACSequenceAdditions.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIActionSheet+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSURLConnection+RACSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UITableViewCell+RACSignalSupport.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalProvider.d" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACBlockTrampoline.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStringSequence.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSUserDefaults+RACSupport.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACQueueScheduler+Subclass.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriptionScheduler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACScopedDisposable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStringSequence.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSubscriber+Private.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACPropertySubscribing.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSignal.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSignal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSequence.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACValueTransformer.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignalSequence.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSIndexSet+RACSequenceAdditions.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACCommand.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicSignal.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UIStepper+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACPassthroughSubscriber.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSNotificationCenter+RACSupport.m" isTestSource="false" />
@@ -425,10 +738,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACKVOChannel.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySequence.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACDynamicPropertySuperclass.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACSignal.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACPropertySubscribing.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSString+RACSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACPropertySubscribing.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/RACStream+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/UICollectionReusableView+RACSignalSupport.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Objective-C/NSObject+RACLifting.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Scheduler.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Observer.swift" isTestSource="false" />
@@ -449,25 +762,25 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/EventLogger.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/ReactiveCocoa/ReactiveCocoa/Swift/Optional.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/FLAnimatedImage/FLAnimatedImage/FLAnimatedImageView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+HighlightedWebCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/NSData+ImageContentType.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+GIF.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageOperation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIButton+WebCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.m" isTestSource="false" />
@@ -475,54 +788,110 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDecoder.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImagePrefetcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImageView+WebCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloader.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIView+WebCacheOperation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/UIImage+MultiFormat.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDImageCache.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageDownloaderOperation.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/SDWebImage/SDWebImage/SDWebImageCompat.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/MJExtension-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/MJExtension-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/MJExtension.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/MJExtension.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/MJExtension-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/MJExtension/MJExtension.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/ReactiveCocoa/ReactiveCocoa.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/FLAnimatedImage/FLAnimatedImage-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-frameworks.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result-prefix.pch" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/SDWebImage/SDWebImage-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Result/Result/Result.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-PPJson/Pods-PPJson-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Result/Result.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Result/Result/ResultType.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Result/Result/Result.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/classes/UIFont+AppFonts.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/classes/UIFont+AppFonts.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/_buttons/3dButton/PP3dButton.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/_buttons/3dButton/PP3dButton.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/StateTextField/PPLinedTextField.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/StateTextField/PPStateTextField.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/StateTextField/PPStateTextFieldProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/StateTextField/PPStateTextField.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/_views/StateTextField/PPLinedTextField.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMStartScreenViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMAuthViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMStartScreenViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMStartScreenViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMAuthViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMAuthViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMStartScreenViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/KeyBoardedNav/PPKeyBoardedNavigationController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/KeyBoardedNav/PPKeyBoardedViewControllerProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/KeyBoardedNav/PPKeyBoardedNavigationController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/__core/PPGMAuthViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMSuperWelcomeViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/userCell_view/PPGridCellUserObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/PPGridCellChatBubleView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/bkgr/PPGridBackgroundView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/bkgr/PPGridAnimationObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/bkgr/PPGridBackgroundView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/bkgr/PPGridAnimationObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/core/PPGridCellView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/core/PPGridView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/core/PPGridCellObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/core/PPGridCellObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/core/PPGridCellView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/core/PPGridView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/PPGridCellChatBubleView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaObject.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMPersonaGridView/personaCell_view/PPGridCellPersonaView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMSuperWelcomeViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPUserProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMWelcomeChatTextBubbleView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMChatBubbleAuthView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMWelcomeChatTextBubbleView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMChatBubbleAuthView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMWelcomeChatBubbleView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPPersonaObjProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMSuperWelcomeViewController.json" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMWelcomeChatBubbleView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMWelcomeScreenViewModel.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPObjectProt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/Welcome/PPGMWelcomeScreenViewModel.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/SignUp/PPGMSignUpViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Gabbermap/controllers/start/SignUp/PPGMSignUpViewController.h" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/PPJson-gnozamtrwjnmwtfrwqlzmlgoqrkd/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-PPJson.build/DerivedSources" />
     <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/PPJson-gnozamtrwjnmwtfrwqlzmlgoqrkd/Build/Intermediates/Pods.build/Debug-iphoneos/ReactiveCocoa.build/DerivedSources" />

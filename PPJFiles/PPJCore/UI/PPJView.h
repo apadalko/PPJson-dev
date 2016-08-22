@@ -4,7 +4,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-
+#import "PPJTextHelper.h"
+#import "UIColor+HEX.h"
 @interface PPJView : UIView
 @end

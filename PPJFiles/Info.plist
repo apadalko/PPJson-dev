@@ -24,6 +24,8 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -33,6 +35,14 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MuseoSansRounded-300.otf</string>
+		<string>MuseoSansRounded-500.otf</string>
+		<string>MuseoSansRounded-700.otf</string>
+		<string>MuseoSansRounded-900.otf</string>
+		<string>MuseoSansRounded-1000.otf</string>
 	</array>
 </dict>
 </plist>
